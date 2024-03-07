@@ -49,14 +49,14 @@
     <!-- or link to the CDN -->
     <link rel="stylesheet" href="url-to-cdn/splide.min.css">
 </head>
-<header class="site-navbar normal-navbar top-navbar pt-0 p-0 m-0 text-center d-md-block d-none " role="banner" id="top">
+<header class="site-navbar normal-navbar top-navbar pt-0 p-0 m-0 text-center d-lg-block d-none " role="banner" id="top">
     <div class="container-fluid text-center  py-1  ">
         <div class="row p-0 m-0 ">
-            <div class="col-12 col-md-3   text-start d-none d-lg-block d-xl-block  ps-5 logobg">
+            <div class="col-12 col-lg-3   text-start d-none d-lg-block d-xl-block  ps-5 logobg">
                 <a class="navbar-brand links" href="./">
                     <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/UnicoLogo.svg" class="img-fluid pt-1 " alt="" width="auto"></a>
             </div>
-            <div class="col-12 col-md-9 col-lg-9 p-0 m-0 maxWidthForHeadeMenu">
+            <div class="col-12  col-lg-9 p-0 m-0 maxWidthForHeadeMenu">
                 <div class="p-1 d-md-block d-none  text-end">
                     <div class="container-fluid  ">
                         <div class="row topnavicon me-2">
@@ -116,7 +116,7 @@
                         <!-- <li class="navbtn"><a href="javascript:void(0);"><span class="spantopmenu <?php if (isset($active) &&  $active === 6) echo "active1" ?>">Call us </span></a></li> -->
 
                     </ul>
-                    <div class="d-flex gap-3   align-items-center  ms-5 ps-4 ">
+                    <div class="d-flex gap-3  socialMediaIcon  align-items-center  ms-lg-5 ps-md-4 ">
                         <!-- <a href="https://www.facebook.com/people/Unico-Housing-Finance-Private-Limited/61553679195669/" target="_blank"> -->
                         <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_1.svg" class="img-fluid" />
                         <!-- </a> -->

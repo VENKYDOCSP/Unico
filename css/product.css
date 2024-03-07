@@ -1,6 +1,6 @@
 .unicoForm {
   border-radius: 8.018px;
-  background: #FFFFFFDE;
+  background: #ffffffde;
   width: 450px;
   box-shadow: 0px 4.009029388427734px 4.009029388427734px 0px #00000040;
   /* width: 100% !; */
@@ -8,9 +8,9 @@
 
 .care_form {
   border-radius: 8.018px;
-  background: #FFFFFFDE;
+  background: #ffffffde;
   width: 450px;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
   box-shadow: 0px 4.009029388427734px 4.009029388427734px 0px #00000040;
   /* width: 100% !; */
 }
@@ -18,7 +18,6 @@
 .unicoForm .btn {
   /* background: linear-gradient(117deg, #19438c 21.82%, #d01e2f 83.26%); */
   background-color: var(--primary);
-  ;
 }
 
 /* .btn {
@@ -57,11 +56,11 @@
   background: transparent !important;
   color: black !important;
   font-weight: 500 !important;
-  border: 1px solid #3C3C4380 !important
+  border: 1px solid #3c3c4380 !important;
 }
 
 .form-control::placeholder {
-  color: #4D4D4D !important;
+  color: #4d4d4d !important;
 }
 
 .form-select {
@@ -69,12 +68,12 @@
   background: transparent !important;
   color: black !important;
   font-weight: 500 !important;
-  border: 1px solid #3C3C4380 !important
+  border: 1px solid #3c3c4380 !important;
 }
 
 .servbox {
   border-radius: 15px;
-  background: #FFF;
+  background: #fff;
   /* box-shadow:1px 3px 16px 0.2px rgba(0, 0, 0, 0.15) */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -85,7 +84,7 @@
 }
 
 .servicecol {
-  background-color: #CCCEFF;
+  background-color: #ccceff;
   z-index: 10;
   height: 309px;
 }
@@ -94,7 +93,7 @@
   background: #CCCEFF;
   padding-top: 20%;
 } */
-.servbox>h2 {
+.servbox > h2 {
   color: #838383;
   text-align: center;
   font-size: 16px;
@@ -111,7 +110,7 @@
 }
 
 .servicetitle h1 {
-  color: #47416A;
+  color: #47416a;
   font-family: Lexend;
   font-size: 28px;
   font-style: normal;
@@ -121,7 +120,7 @@
 }
 
 .servicetitle p {
-  background: linear-gradient(91deg, #3B7FDF 0.49%, #8384F3 94.86%);
+  background: linear-gradient(91deg, #3b7fdf 0.49%, #8384f3 94.86%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -139,7 +138,7 @@
 
 .sellbtn {
   border-radius: 6px;
-  background: linear-gradient(90deg, #9085D3 0%, #71A5F0 100%);
+  background: linear-gradient(90deg, #9085d3 0%, #71a5f0 100%);
   width: 206px;
   height: 59px;
   flex-shrink: 0;
@@ -149,7 +148,7 @@
 }
 
 .sell_product {
-  background: linear-gradient(91deg, #3B7FDF 0.49%, #8384F3 94.86%);
+  background: linear-gradient(91deg, #3b7fdf 0.49%, #8384f3 94.86%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -167,7 +166,7 @@
 }
 
 .sellprodes {
-  color: #5E5959;
+  color: #5e5959;
   font-feature-settings: 'clig' off, 'liga' off;
   font-size: 16px;
   font-style: normal;
@@ -176,11 +175,11 @@
 
 .prod_text_bg {
   border-radius: 28px;
-  background: linear-gradient(270deg, #AFA9E6 -1.6%, #9BC0F8 100%);
+  background: linear-gradient(270deg, #afa9e6 -1.6%, #9bc0f8 100%);
 }
 
 .frq_ask_down {
-  background-color: #CCCEFF;
+  background-color: #ccceff;
   height: 200px;
   width: 100%;
   margin-top: -200px;
@@ -189,9 +188,9 @@
 }
 
 .frequently_desc {
-  color: #2D3850;
+  color: #2d3850;
   font-feature-settings: 'clig' off, 'liga' off;
-  font-family: "Noto Sans";
+  font-family: 'Noto Sans';
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -201,9 +200,9 @@
 }
 
 .frequently_desc span {
-  color: #E8292D;
+  color: #e8292d;
   font-feature-settings: 'clig' off, 'liga' off;
-  font-family: "Noto Sans";
+  font-family: 'Noto Sans';
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -241,7 +240,7 @@
 
   .formDetails h2 {
     color: var(--primary) !important;
-    font-size: 26px !important;
+    font-size: 20px !important;
   }
 
   .unicoForm {
@@ -258,24 +257,18 @@
   .borderForInput input {
     background-color: #fff !important;
   }
-  
 
   .servicetitle p {
- 
     font-size: 35px;
-  
-}
+  }
 
-.sell_product {
- 
-  font-size: 34px;
- 
-  line-height: 48px;
- 
-}
+  .sell_product {
+    font-size: 34px;
 
-/* .servbox{
+    line-height: 48px;
+  }
+
+  /* .servbox{
   height: 40% !important;
 } */
-
 }

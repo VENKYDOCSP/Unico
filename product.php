@@ -11,16 +11,16 @@ include './layout/header.php';
 // include './layout/mobileHeader.php';
 include './layout/mobileNav.php'; ?>
 <div class="position-relative container-fluid p-0 m-0 " id="banner" id="top">
-  <div class=" d-md-block d-none p-0 m-0">
+  <div class="  p-0 m-0">
     <!-- <div class=" m-0 p-0"> -->
     <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/pro_baner.png" alt="banner" class="img-fluid w-100">
     <!-- </div> -->
   </div>
-  <div class=" d-md-none d-block">
+  <!-- <div class=" d-md-none d-block">
     <div class="m-0 p-0 ">
       <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/HomeBannerForUnicoMobile.jpg" alt="banner" class="img-fluid w-100">
     </div>
-  </div>
+  </div> -->
   <div class=" mx-auto mt-md-0 d-flex flex-column justify-content-center align-items-center pb-3   formDetails" data-aos="zoom-in" data-aos-duration="600">
     <div class=" mt-2 mb-0">
       <?php if (isset($_GET["sent"]) && $_GET["sent"] == "1") { ?>
@@ -42,7 +42,7 @@ include './layout/mobileNav.php'; ?>
         </script>
       <?php } ?>
     </div>
-    <h2 class="mb-3 text-center text-white  getstart py-3 py-md-0 fs-3"> Apply Now - Achieve Dreams
+    <h2 class="mb-md-3 text-center text-white  getstart py-2 py-md-0 fs-3"> Apply Now - Achieve Dreams
     </h2>
     <form class="unicoForm px-3 py-3 px-md-4 py-md-5 " action="formdb.php" method="post" autocomplete="off">
       <div class="mb-4 borderForInput m">
@@ -172,9 +172,9 @@ include './layout/mobileNav.php'; ?>
           <!-- <div class="col-10 align-items-center px-3"> -->
           <div class="col-12 col-md-7 mx-auto">
             <div class="    d-flex justify-content-around   bg_cont_tab rounded-pill align-items-center  border border-dark  ">
-              <p class=" px-4 px-md-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  "   onclick="opendiv('General')">General</p>
+              <p class=" px-4 px-md-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  " onclick="opendiv('General')">General</p>
               <!-- <p class="bg_select_nilt  bg-hover DivHighlight px-5  mt-1 ms-2   fs-5 rounded-pill  my-1 " onclick="opendiv('Finance')">Finance </p> -->
-              <p class="bg_select_nilt  bg-hover DivHighlight px-4 px-md-5 mt-1 ms-2   fs-5 rounded-pill me-2  my-1"   onclick="opendiv('Loans')">Loans</p>
+              <p class="bg_select_nilt  bg-hover DivHighlight px-4 px-md-5 mt-1 ms-2   fs-5 rounded-pill me-2  my-1" onclick="opendiv('Loans')">Loans</p>
             </div>
           </div>
           <!-- </div> -->

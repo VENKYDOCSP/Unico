@@ -759,3 +759,14 @@
 .serv-prev-arrow::before {
   content: url('https://unicowebsite.s3.ap-south-1.amazonaws.com/RightSVG.svg');
 }
+
+@media only screen and (max-width: 1367px) {
+  .site-navbar .site-navigation .site-menu > li > a > span {
+    margin: 0px 4px !important;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .socialMediaIcon {
+    display: none !important;
+  }
+}
