@@ -103,12 +103,12 @@
         duration: 1,
         speed: 'slow',
     });
-    // ScrollLottie({
-    //     target: '#animationWindowMobile',
-    //     path: './assets/mobileLottie.json',
-    //     duration: 1,
-    //     speed: 'slow',
-    // });
+    ScrollLottie({
+        target: '#animationWindowMobile',
+        path: './assets/mobileLottie.json',
+        duration: 1,
+        speed: 'slow',
+    });
 
     // }
     // lottiewplay();/
@@ -321,20 +321,20 @@
         slidesToScroll: 1,
         adaptiveHeight: true,
         responsive: [{
-                    breakpoint: 760,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    }
+                breakpoint: 760,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                 }
-            ]
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 </script>
 <script type="text/javascript">
@@ -381,7 +381,7 @@
             asNavFor: '.slider-nav',
             prevArrow: '<button class="blog-prev-arrow"></button>',
             nextArrow: '<button class="blog-next-arrow"></button>'
-            
+
         });
         $(".slider-nav").slick({
             dots: false,
@@ -426,7 +426,7 @@
     });
 </script>
 <!--        Products_carousel -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     $(".Products_carousel").slick({
         dots: false,
         arrows: false,
@@ -437,9 +437,62 @@
         slidesToScroll: 1,
         // adaptiveHeight: true,
         prevArrow: '<button class="product-slide-arrow product-prev-arrow"></button>',
-        nextArrow: '<button class="product-slide-arrow product-next-arrow"></button>'
+        nextArrow: '<button class="product-slide-arrow product-next-arrow"></button>',
+        responsive: [{
+                breakpoint: 991,
+                autoplaySpeed: 1000,
+                autoplay: true,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 575,
+                autoplay: true,
+                infinite: true,
+                autoplaySpeed: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+</script> -->
+<script type="text/javascript">
+    $(".Products_carousel").slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        slidesToShow: 6,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        slidesToScroll: 1,
+        prevArrow: '<button class="product-slide-arrow product-prev-arrow"></button>',
+        nextArrow: '<button class="product-slide-arrow product-next-arrow"></button>',
+        responsive: [{
+                breakpoint: 991,
+                settings: {
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 </script>
+
 
 
 <script type="text/javascript">

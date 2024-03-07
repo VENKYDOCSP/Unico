@@ -1360,4 +1360,16 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   .get_call_bk_cont {
     margin-top: 0px;
   }
+
+  .get_cal_back_bk {
+    background: none;
+  }
+  .rentalhomebk {
+    background: #c3ead8;
+  }
+
+  .rentalhomebk p {
+    color: #5a5a5a;
+    font-size: 16px;
+  }
 }

@@ -13,14 +13,14 @@ include './layout/mobileNav.php';
 ?>
 <section class="mb-1 mb-md-5 pb-1 pb-md-5">
     <div class="container mt-md-5 pt-md-5 ">
-        <div class="row pb-2 d-flex career_container justify-content-around align-items-center px-md-5 mt-md-auto mt-0">
+        <div class="row pb-2 d-flex career_container justify-content-around align-items-center px-md-5 mt-md-5 mt-0">
             <div class="col-12 col-md-6 career_content ">
-                <h1 class=" pt-3 pt-md-0" data-aos="fade-right" data-aos-duration="600">Careers</h1>
+                <h1 class=" pt-3 pt-md-0 text-md-start text-center" data-aos="fade-right" data-aos-duration="600">Careers</h1>
                 <p class="my-3 d-md-block d-none" data-aos="fade-right" data-aos-duration="800">Become a part of our team and shape the future of home financing. At Unico, we are committed to empowering individuals to flourish in a dynamic and fulfilling atmosphere. Explore enticing career prospects where you can create a significant impact, advance in your professional journey, and play a role in assisting others in realizing their dreams of homeownership.</p>
                 <!-- <a href="#career_form"> <button class="car_aply_btn py-3 px-5 ">Apply now</button></a> -->
             </div>
             <div class="col-12 col-md-6">
-                <img class="img-fluid career_img" data-aos="fade-left" data-aos-duration="600" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/BannerImage123.png" alt="">
+                <img class="img-fluid career_img " data-aos="fade-left" data-aos-duration="600" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/BannerImage123.png" alt="">
                 <p class="my-3 d-md-none d-block text-center" data-aos="fade-right" data-aos-duration="800">Become a part of our team and shape the future of home financing. At Unico, we are committed to empowering individuals to flourish in a dynamic and fulfilling atmosphere. Explore enticing career prospects where you can create a significant impact, advance in your professional journey, and play a role in assisting others in realizing their dreams of homeownership.</p>
             </div>
         </div>
