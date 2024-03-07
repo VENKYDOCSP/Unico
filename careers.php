@@ -24,13 +24,12 @@ include './layout/mobileNav.php';
             </div>
         </div>
     </div>
-    <div class="container work_contain mt-md-5 pt-3  mx-auto pb-5 ">
+    <div class="container work_contain mt-md-5 pt-3 mobileResponsiveHeading  mx-auto pb-5 ">
         <h2 class="text-center title_team" data-aos="zoom-in" data-aos-duration="700">Why Choose Us?</h2>
-        <div class="row  px-md-5 mx-md-1 mx-auto d-flex justify-content-around align-items-center mt-md-5">
+        <div class="row  px-md-5 mx-md-1  mt-3 mx-auto d-flex justify-content-around align-items-center mt-md-5 ">
             <div class="col-12 col-md-6 work_with px-3   " data-aos="fade-right">
                 <div class="d-flex justify-content-center align-items-start ">
                     <div>
-
                         <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/promotion+1.svg" alt="">
                     </div>
                     <div class="mx-3">
@@ -78,12 +77,12 @@ include './layout/mobileNav.php';
         </div>
         <div class="row  px-md-5 mx-md-1 mx-auto d-flex justify-content-start align-items-center mt-md-3 ">
 
-            <div class="col-12 col-md-6 work_with  " data-aos="fade-right">
+            <div class="col-12 col-md-6 work_with  p-md-auto p-0" data-aos="fade-right">
                 <div class="d-flex justify-content-center align-items-start">
                     <div>
                         <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Join.svg" alt="" class="pt-1">
                     </div>
-                    <div class="mx-3">
+                    <div class="ms-3">
                         <h2 class="">Join us in supporting children facing developmental challenges.</h2>
                         <p class="my-md-2">Be a member of our community focused on aiding children who are experiencing developmental difficulties. Your participation contributes to our collective effort to provide assistance, care, and resources to enhance the well-being and development of these children.</p>
                     </div>
@@ -108,7 +107,7 @@ include './layout/mobileNav.php';
                                     -
                                 </p>
                             </div>
-                            <div class="px-3">
+                            <div class="px-md-3 ps-1">
                                 <h6 class="titlerolename"> Chief compliance office</h6>
                                 <p class="my-md-4 ">Join our journey to becoming the most preferred housing finance company</p>
                                 <p class="my-md-2 pb-md-3 ">12+ Year Experience <span class="jobtime py-1 rounded-3  px-2 bg_clr"> <span class="text-center  p-0 m-0"><svg width="10" height="14" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,7 +133,7 @@ include './layout/mobileNav.php';
                                     -
                                 </p>
                             </div>
-                            <div class="px-3">
+                            <div class="px-md-3 ps-1">
                                 <h6 class="titlerolename"> Sales executive</h6>
                                 <p class="my-md-4 ">Join our journey to becoming the most preferred housing finance company</p>
                                 <p class="my-md-2 pb-md-3 ">12+ Year Experience <span class="jobtime py-1 rounded-3  px-2 bg_clr"> <span class="text-center  p-0 m-0"><svg width="10" height="14" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +159,7 @@ include './layout/mobileNav.php';
                                     -
                                 </p>
                             </div>
-                            <div class="px-3">
+                            <div class="px-md-3 ps-1">
                                 <h6 class="titlerolename">Branch Manager</h6>
                                 <p class="my-md-4 ">Join our journey to becoming the most preferred housing finance company</p>
                                 <p class="my-md-2 pb-md-3 ">12+ Year Experience <span class="jobtime py-1 rounded-3  px-2 bg_clr"> <span class="text-center  p-0 m-0"><svg width="10" height="14" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -188,7 +187,7 @@ include './layout/mobileNav.php';
                                     -
                                 </p>
                             </div>
-                            <div class="px-3">
+                            <div class="px-md-3 ps-1">
                                 <h6 class="titlerolename"> Customer service executive</h6>
                                 <p class="my-md-4 ">Join our journey to becoming the most preferred housing finance company</p>
                                 <p class="my-md-2 pb-md-3 ">12+ Year Experience <span class="jobtime py-1 rounded-3  px-2 bg_clr"> <span class="text-center  p-0 m-0"><svg width="10" height="14" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +213,7 @@ include './layout/mobileNav.php';
                                     -
                                 </p>
                             </div>
-                            <div class="px-3">
+                            <div class="px-md-3 ps-1">
                                 <h6 class="titlerolename">Human Resource Executive</h6>
                                 <p class="my-md-4 ">Join our journey to becoming the most preferred housing finance company</p>
                                 <p class="my-md-2 pb-md-3 ">12+ Year Experience <span class="jobtime py-1 rounded-3  px-2 bg_clr"> <span class="text-center  p-0 m-0"><svg width="10" height="14" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,7 +239,7 @@ include './layout/mobileNav.php';
                                     -
                                 </p>
                             </div>
-                            <div class="px-3">
+                            <div class="px-md-3 ps-1">
                                 <h6 class="titlerolename"> Sr.Manager</h6>
                                 <p class="my-md-4 ">Join our journey to becoming the most preferred housing finance company</p>
                                 <p class="my-md-2 pb-md-3 ">12+ Year Experience <span class="jobtime py-1 rounded-3  px-2 bg_clr"> <span class="text-center  p-0 m-0"><svg width="10" height="14" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -324,8 +323,8 @@ include './layout/mobileNav.php';
         </form>
     </div>
 
-    <div class=""  id="career_form">
-    <form class=" d-block d-md-none  px-md-4 py-md-4  border rounded p-4 " action="formdb.php" method="post" autocomplete="off" data-aos="fade-right" data-aos-duration="700">
+    <div class="" id="career_form">
+        <form class=" d-block d-md-none  px-md-4 py-md-4  border rounded p-4 " action="formdb.php" method="post" autocomplete="off" data-aos="fade-right" data-aos-duration="700">
             <h2 class="mb-3 text-center text-white  your_grouth py-3"> Begin your journey of growth here
             </h2>
             <div class="mb-4 borderForInput m">

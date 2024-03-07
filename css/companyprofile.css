@@ -35,7 +35,7 @@
   /* 27px */
 }
 
-.solutionDream>button {
+.solutionDream > button {
   border-radius: 20px;
   background: #8a8169;
   color: #ffffff;
@@ -104,7 +104,7 @@
   background: #feffe1;
 }
 
-.missionbg>h2 {
+.missionbg > h2 {
   color: #8c8878;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Lexend;
@@ -115,7 +115,7 @@
   /* 55.18px */
 }
 
-.missionbg>p {
+.missionbg > p {
   color: #5f5f4e;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Gilroy;
@@ -134,7 +134,7 @@
   background: #feffe1;
 }
 
-.visionbg>h2 {
+.visionbg > h2 {
   color: #8c8878;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Lexend;
@@ -145,7 +145,7 @@
   /* 55.18px */
 }
 
-.visionbg>p {
+.visionbg > p {
   color: #5f5f4e;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Gilroy;
@@ -225,46 +225,46 @@
   /* 30px */
 }
 
-
 @media screen and (max-width: 768px) {
   .solutionDream h1 {
-
     font-size: 32px;
-
   }
 
   .our_prodctabt {
+    font-size: 28px;
 
-    font-size: 30px;
-
-    line-height: 51px;
-
+    line-height: 40px;
   }
 
-  .missionbg>h2 {
-
+  .missionbg > h2 {
     font-size: 38px;
-
   }
 
-  .visionbg>h2 {
+  .visionbg > h2 {
     color: #8c8878;
     font-size: 38px;
-
   }
 
   .values h2 {
-  
     font-size: 30px;
- 
+
     letter-spacing: 8px;
+  }
+
+  .our_proddetails {
+    color: #5f5f4e;
+    line-height: 139%;
+    font-size: 18px;
+  }
+
+  .our_prodctabt span {
+    font-size: 28px;
+    line-height: 32px !important;
+  }
 }
 
-
-.our_proddetails {
-  color: #5f5f4e; 
-  line-height: 139%;
-}
-
-
+@media screen and (max-width: 768px) {
+  .missionbg > h2 {
+    font-size: 30px !important;
+  }
 }

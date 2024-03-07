@@ -1,212 +1,223 @@
 .career_container {
-    border-radius: 0px 168.5px 0px 103px;
-    background: #F0F0F0;
-    margin-top: 5%;
+  border-radius: 0px 168.5px 0px 103px;
+  background: #f0f0f0;
+  margin-top: 5%;
 }
 
-.career_content>p {
-    color: #545454;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Lexend;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
+.career_content > p {
+  color: #545454;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
 }
 
-.career_content>h1 {
-    color: #28B3A8;
-    font-family: Lexend;
-    font-size: 49px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    /* 58.8px */
+.career_content > h1 {
+  color: #28b3a8;
+  font-family: Lexend;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 58.8px */
 }
 
 .car_aply_btn {
-    color: #555B5B !important;
-    font-weight: 500;
-    background-color: #97C8C4;
-    box-shadow: 0px 0px 14px 0px #0000001F;
-    border: none;
+  color: #555b5b !important;
+  font-weight: 500;
+  background-color: #97c8c4;
+  box-shadow: 0px 0px 14px 0px #0000001f;
+  border: none;
 }
 
 .perfect_job {
-    color: var(--darkgreen);
-    font-weight: 500;
-    font-size: 36px;
+  color: var(--darkgreen);
+  font-weight: 500;
+  font-size: 36px;
 }
 
-.perfect_job>span {
-    color: #28B3A8;
-    font-weight: 700;
-    font-size: 36px;
+.perfect_job > span {
+  color: #28b3a8;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .work_with {
-    color: #545454;
+  color: #545454;
 }
 
 .career_img {
-    margin-top: -20%;
+  margin-top: -20%;
 }
 
 .team_contain {
-    background: #C9F8F4;
+  background: #c9f8f4;
 }
 
 .team_role {
-    border-radius: 7px;
-    background: #FFF;
-    box-shadow: 6px 10px 20.2px 0px rgba(0, 0, 0, 0.07);
-    /* border: 0.4px solid #009185; */
-    background: #FFF;
-    border: none;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 6px 10px 20.2px 0px rgba(0, 0, 0, 0.07);
+  /* border: 0.4px solid #009185; */
+  background: #fff;
+  border: none;
 }
 
 .titlerolename {
-    color: #28B3A8;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #28b3a8;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .titlerole {
-    color: #434344;
-    display: inline;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #434344;
+  display: inline;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .linedesg {
-    color: #2E52A1;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #2e52a1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .team_role p {
-    color: #515151;
-    font-family: "Red Hat Display";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #515151;
+  font-family: 'Red Hat Display';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .team_role button {
-    border-radius: 12px;
-    background: #97C8C4;
-    color: #555B5B;
-    border: none;
-    padding: 10px 18px;
+  border-radius: 12px;
+  background: #97c8c4;
+  color: #555b5b;
+  border: none;
+  padding: 10px 18px;
 }
 
 .title_team {
-    color: #28B3A8;
-    font-family: Lexend;
-    font-size: 49px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    /* 58.8px */
+  color: #28b3a8;
+  font-family: Lexend;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 58.8px */
 }
 
 .your_grouth {
-    color: #2E52A1 !important;
+  color: #2e52a1 !important;
 }
 
 .car_btn {
-    background-color: #97C8C4;
-    border: none;
+  background-color: #97c8c4;
+  border: none;
 }
 
 .btnloc p {
-    color: #515151;
-    font-family: "Red Hat Display";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 0px;
+  color: #515151;
+  font-family: 'Red Hat Display';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0px;
 }
 
 .btnloc button {
-    border-radius: 12px !important;
-    background: #97C8C4;
-    color: #555B5B;
-    font-family: "Red Hat Display";
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  border-radius: 12px !important;
+  background: #97c8c4;
+  color: #555b5b;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .btnloc .jobtime {
-    border-radius: 12px;
-    background: #97C8C4;
-    display: flex;
-    width: 80.601px;
-    margin-bottom: 0px;
-    height: 16.562px;
-    padding: 18px 21px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
+  border-radius: 12px;
+  background: #97c8c4;
+  display: flex;
+  width: 80.601px;
+  margin-bottom: 0px;
+  height: 16.562px;
+  padding: 18px 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
 .bg_clr {
-    background-color: #97C8C4 !important;
-    color: white !important;
-    font-size: 11px !important;
+  background-color: #97c8c4 !important;
+  color: white !important;
+  font-size: 11px !important;
 }
 
 .loct_icon::before {
-    content: url("https://unicowebsite.s3.ap-south-1.amazonaws.com/loc_car.svg");
+  content: url('https://unicowebsite.s3.ap-south-1.amazonaws.com/loc_car.svg');
 }
 
 .loct_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 
 .LocateUs {
-    color: #717171;
-    font-weight: 500;
+  color: #717171;
+  font-weight: 500;
 }
 
-
 @media screen and (max-width: 768px) {
-    .career_img {
-        margin-top: 0%;
-    }
+  .career_img {
+    margin-top: 0%;
+  }
 
-    .title_team {
+  .title_team {
+    font-size: 38px;
+  }
 
-        font-size: 38px;
+  .perfect_job {
+    font-size: 30px;
+  }
 
-    }
+  .perfect_job > span {
+    font-size: 30px;
+  }
 
-    .perfect_job {
+  .team_role {
+    margin-top: 20px;
+  }
+}
 
-        font-size: 30px;
-    }
+@media screen and (max-width: 600px) {
+  .mobileResponsiveHeading h2 {
+    font-size: 20px;
+  }
+  .mobileResponsiveHeading p {
+    font-size: 14px;
+  }
 
-    .perfect_job>span {
-
-        font-size: 30px;
-    }
-
-    .team_role {
-   
-        margin-top: 20px;
-    }
+  .title_team {
+    font-size: 30px;
+  }
+  .team_role button {
+    font-size: 14px !important;
+    padding: 10px 10px !important;
+  }
 }

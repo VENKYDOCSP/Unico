@@ -165,10 +165,10 @@ include './layout/mobileNav.php'; ?>
     <div class="prod_text_bg mx-2 ">
       <div class="row m-4 justify-content-center align-items-center pt-4 pb-3">
         <div class="col-12 col-md-6">
-          <p class="fs-2 frequently_desc ">Frequently <span class="">Asked Questions</span></p>
+          <p class="fs-2 frequently_desc mb-md-auto mb-2">Frequently <span class="">Asked Questions</span></p>
           <p>Answers to your home financing queries</p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 p-md-auto p-0">
           <!-- <div class="col-10 align-items-center px-3"> -->
           <div class="col-12 col-md-7 mx-auto">
             <div class="    d-flex justify-content-around   bg_cont_tab rounded-pill align-items-center  border border-dark  ">
