@@ -1338,4 +1338,8 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
 .product_apply_now {
   font-size: 14px!important;
 }
+
+  .get_call_bk_cont {
+    margin-top: 0px;
+  }
 }

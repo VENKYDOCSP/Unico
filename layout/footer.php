@@ -82,6 +82,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="../component/calculator.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script> -->
@@ -102,6 +103,12 @@
         duration: 1,
         speed: 'slow',
     });
+    // ScrollLottie({
+    //     target: '#animationWindowMobile',
+    //     path: './assets/mobileLottie.json',
+    //     duration: 1,
+    //     speed: 'slow',
+    // });
 
     // }
     // lottiewplay();/
@@ -341,24 +348,23 @@
         slidesToScroll: 1,
         adaptiveHeight: true,
         prevArrow: '<button class=" serv-prev-arrow"></button>',
-        nextArrow: '<button class=" serv-next-arrow"></button>' ,
-         responsive: [{
-                    breakpoint: 991,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                    }
-                },
-                {
-                    breakpoint: 575,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    }
+        nextArrow: '<button class=" serv-next-arrow"></button>',
+        responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                 }
-            ]
-        });
-    
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
 </script>
 <!-- blog_new_carousel -->
 <script type="text/javascript">

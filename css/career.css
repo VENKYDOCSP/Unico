@@ -220,4 +220,11 @@
     font-size: 14px !important;
     padding: 10px 10px !important;
   }
+  .career_container {
+    border-radius: 0px;
+  }
+
+  .mobileHeadingWhyUs {
+    font-size: 28px !important;
+  }
 }
