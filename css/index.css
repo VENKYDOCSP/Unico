@@ -194,6 +194,7 @@ a {
   color: #ffffff;
   border: none;
   border-radius: 30px;
+  font-size: 30px;
 }
 
 .y_chose_unico {
@@ -1120,6 +1121,13 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   color: #201717 !important;
 }
 
+.splide_contain p:nth-child(1){
+  font-size: 32px;
+}
+
+.splide_contain p:nth-child(2){
+  font-size: 22.43px;
+}
 /* .splide__pagination__page.is-active {
   height: 90px !important;
 }
@@ -1271,6 +1279,10 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
 .pop_up_img p {
   color: #494949;
 }
+.phonecont{
+  width: 100%;
+  height: 100vh;
+}
 
 @media only screen and (max-width: 600px) {
   .font_fmly {
@@ -1294,4 +1306,36 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   .logoForFooter {
     width: 50%;
   }
+  .rentalhome_sub_txt {
+ font-size: 20px !important;
+  }
+  
+.y_waste_money_btn {
+ 
+  font-size: 14px;
+}
+  
+.splide_contain p:nth-child(1){
+  font-size: 18px;
+}
+
+.splide_contain p:nth-child(2){
+  font-size: 8px;
+}
+.sideblogcontent{
+  font-size:15px;
+  padding-left: 20px;
+}
+.y_chose_unico{
+  font-size: 30px;
+}
+.our_prodct {
+  font-size: 30px;
+}
+.v_listn {
+  font-size: 14px;
+}
+.product_apply_now {
+  font-size: 14px!important;
+}
 }

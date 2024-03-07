@@ -118,7 +118,7 @@
                     </ul>
                     <div class="d-flex gap-3  socialMediaIcon  align-items-center  ms-lg-5 ps-md-4 ">
                         <!-- <a href="https://www.facebook.com/people/Unico-Housing-Finance-Private-Limited/61553679195669/" target="_blank"> -->
-                        <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_1.svg" class="img-fluid" />
+                        <!-- <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_1.svg" class="img-fluid" /> -->
                         <!-- </a> -->
                         <a href="https://www.instagram.com/unicohousingfinance/" target="_blank">
 

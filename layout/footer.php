@@ -18,16 +18,16 @@
                     <ul class="d-flex justify-content-start align-items-center p-0">
                         <p class="mb-0  font_fmly">Follow us on :</p>
                         <a href="https://www.facebook.com/people/Unico-Housing-Finance-Private-Limited/61553679195669/" target="_blank">
-                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img123.svg" class="img-fluid" /></li>
+                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_3.svg" class="img-fluid" /></li>
                         </a>
                         <a href="https://twitter.com/UnicoHousing" target="_blank">
-                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img124.svg" class="img-fluid" /></li>
+                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_5.svg" class="img-fluid" /></li>
                         </a>
                         <a href="https://www.linkedin.com/in/unico-housing-finance-7b245b2a1/" target="_blank">
-                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img125.svg" class="img-fluid" /></li>
+                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_4.svg" class="img-fluid" /></li>
                         </a>
                         <a href="https://www.instagram.com/unicohousingfinance/" target="_blank">
-                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img126.svg" class="img-fluid" /></li>
+                            <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_2.svg" class="img-fluid" /></li>
                         </a>
                     </ul>
                 </div>
@@ -313,6 +313,21 @@
         autoplay: true,
         slidesToScroll: 1,
         adaptiveHeight: true,
+        responsive: [{
+                    breakpoint: 760,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
     });
 </script>
 <script type="text/javascript">
@@ -360,6 +375,7 @@
             asNavFor: '.slider-nav',
             prevArrow: '<button class="blog-prev-arrow"></button>',
             nextArrow: '<button class="blog-next-arrow"></button>'
+            
         });
         $(".slider-nav").slick({
             dots: false,

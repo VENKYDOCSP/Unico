@@ -22,17 +22,17 @@ include './layout/mobileNav.php'; ?>
   <p class="text-center   fs-2 mt-0 pt-0 font-monospace">Buy Your Dream Home with our Easy Home <br> Loan Process and Fast Approval</p>
    -->
 
-  <div class="container bg-white" style="z-index:9">
+  <div class="container bg-white mt-4 mt-md-0" style="z-index:9">
     <div class="row  pt-5   justify-content-center ">
-      <div class="col-4 p-2   my-auto ">
-        <img class="img-fluid text-start" data-aos="fade-down-right" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/react.svg" alt="">
+      <div class="col-12 col-md-4 p-2   my-auto text-center  ">
+        <img class="img-fluid text-start d-none d-md-block" data-aos="fade-down-right" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/react.svg" alt="">
         <p class="our_prodct ms-4 mt-0 pt-0" data-aos="fade-right">Our <span>Products</span></p>
-        <p class="ms-4 fw-semibold  mt-1 ps-1 " data-aos="fade-right">Customized loan options for your aspirations.</p>
-        <p class="ms-4 fw-semibold  ps-1 v_listn" data-aos="fade-right">We attentively listen, observe and curate your perfect loan.</p>
+        <p class="ms-md-4 fw-semibold  mt-1 ps-1 " data-aos="fade-right">Customized loan options for your aspirations.</p>
+        <p class="ms-md-4  fw-semibold  ps-1 v_listn" data-aos="fade-right">We attentively listen, observe and curate your perfect loan.</p>
 
-        <a class="" href="./product.php"> <button class="product_apply_now ms-3 px-5 py-3 border-0  rounded-4 mt-3 text-white fw-semibold " data-aos="fade-right">APPLY NOW</button> </a>
+        <a class="" href="./product.php"> <button class="product_apply_now ms-md-3 px-md-5 py-md-3 py-3 px-4 border-0  rounded-4 mt-md-3 text-white fw-semibold " data-aos="fade-right">APPLY NOW</button> </a>
       </div>
-      <div class="col-7"><img class="img-fluid" data-aos="fade-up" data-aos-anchor-placement="top-bottom" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/proImg.png" alt=""></div>
+      <div class="col-12 col-md-7"><img class="img-fluid" data-aos="fade-up" data-aos-anchor-placement="top-bottom" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/proImg.png" alt=""></div>
     </div>
   </div>
 
@@ -244,7 +244,7 @@ include './layout/mobileNav.php'; ?>
   </div>
   <div class="row p-o m-0 justify-content-center ">
     <div class="col-12 p-0 m-0">
-      <div class="" id="animationWindow" style="width: 100%; height: 100vh">
+      <div class="phonecont" id="animationWindow" >
       </div>
     </div>
   </div>
@@ -254,13 +254,13 @@ include './layout/mobileNav.php'; ?>
   <!-- why waste money on rental home -->
   <div class="bg-white pb-5">
     <div class="container rentalhomebk " id="rentalhomebk" style="z-index:99">
-      <div class=" row p-5">
-        <div class="col-12 col-lg-6 py-5 my-5 pe-0">
+      <div class=" row p-md-5">
+        <div class="col-12 col-lg-6 py-md-5 my-md-5 py-5 pe-0">
           <div class="pb-3 ">
             <p class="rentalhome_sub_txt " data-aos="fade-right" data-aos-duration="800">"Why spend money on rental homes <span>unnecessarily?"</span></p>
             <p class="fs-6 pe-1 pe-lg-5 lh-lg col-lg-9" data-aos="fade-right" data-aos-duration="1000">Own your dream home with Unico Housing Finance and transform your rent into monthly instalments for your own house.</p>
 
-            <a class="" href="./product.php"> <button class="py-3 px-5 y_waste_money_btn mt-3 fs-5 fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
+            <a class="" href="./product.php"> <button class="py-3 px-5 y_waste_money_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
           </div>
         </div>
       </div>
@@ -280,9 +280,9 @@ include './layout/mobileNav.php'; ?>
                 <div class="col-4 text-end ">
                   <p class="pe-4  text-center"><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/01.png" alt=""></p>
                 </div>
-                <div class="col-4">
-                  <p class="lh-base fs-3 fw-bold text-white pe-4">Quick Approvals, Simplified Process:</p>
-                  <p class="lh-lg text-light fs-5 pe-3">Recognizing your urgency, we streamline pre-loan formalities to expedite decisions and provide quicker access to your dream home. </p>
+                <div class="col-4 splide_contain">
+                  <p class="lh-base  fw-bold text-white pe-4">Quick Approvals, Simplified Process:</p>
+                  <p class="lh-lg text-light  pe-3">Recognizing your urgency, we streamline pre-loan formalities to expedite decisions and provide quicker access to your dream home. </p>
                 </div>
                 <div class="col-4 "> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div>
               </div>
@@ -292,9 +292,9 @@ include './layout/mobileNav.php'; ?>
                 <div class="col-4 text-end ">
                   <p class="pe-4  text-center"><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/02.png" alt=""></p>
                 </div>
-                <div class="col-4">
-                  <p class="lh-base fs-3 fw-bold text-white pe-3">Seamless Documentation, Reduced Paperwork:</p>
-                  <p class="lh-lg text-light fs-5 pe-3">We emphasize a straightforward documentation process, guaranteeing a smooth journey towards your dream space.</p>
+                <div class="col-4 splide_contain">
+                  <p class="lh-base  fw-bold text-white pe-3">Seamless Documentation, Reduced Paperwork:</p>
+                  <p class="lh-lg text-light  pe-3">We emphasize a straightforward documentation process, guaranteeing a smooth journey towards your dream space.</p>
                 </div>
                 <div class="col-4 text-center"> <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player> </div>
               </div>
@@ -304,9 +304,9 @@ include './layout/mobileNav.php'; ?>
                 <div class="col-4 text-end ">
                   <p class="pe-4  text-center"><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/03.png" alt=""></p>
                 </div>
-                <div class="col-4">
-                  <p class="lh-base fs-3 fw-bold text-white pe-3">Digital Ease, Constant Connectivity:</p>
-                  <p class="lh-lg text-light fs-5 pe-3">Our intuitive digital tools provide round-the-clock access to account details, payments, and support, empowering you at every stage.</p>
+                <div class="col-4 splide_contain">
+                  <p class="lh-base  fw-bold text-white pe-3">Digital Ease, Constant Connectivity:</p>
+                  <p class="lh-lg text-light pe-3">Our intuitive digital tools provide round-the-clock access to account details, payments, and support, empowering you at every stage.</p>
                 </div>
                 <div class="col-4 text-center"> <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player> </div>
               </div>
@@ -622,7 +622,7 @@ include './layout/mobileNav.php'; ?>
 
       <!-- neww -->
       <div class="row ">
-        <div class="col-7 ">
+        <div class="col-12 col-md-7 ">
           <div class="blog_new_carousel">
 
             <div class="">
@@ -748,21 +748,21 @@ include './layout/mobileNav.php'; ?>
             </div> -->
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-md-5 mt-5">
           <div class="d-flex justify-content-start">
-            <div class="col-1   " style="border-left: 1px solid black"></div>
+            <div class="col-1 d-none d-md-block  " style="border-left: 1px solid black"></div>
             <div class="  slider-nav ">
               <div class="d-flex justify-content-start align-items-center gap-2  py-3 botm_border ">
                 <p class="m-0 p-0 col-1"> <img class="img-fluidd" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Blog+Box+_2.png" alt="" srcset=""></p>
                 <p class="m-0 p-0 my-auto ms-2">
-                  <li class="fw-semibold ms-5  ps-1">Unico’s Home Loan Balance Transfer: Empower Your Finances</li>
+                  <li class="fw-semibold ms-5 sideblogcontent ps-4 ps-md-1">Unico’s Home Loan Balance Transfer: Empower Your Finances</li>
                 </p>
                 <hr>
               </div>
               <div class="d-flex justify-content-start align-items-center gap-2  py-3 botm_border">
                 <p class="m-0 p-0 col-1"> <img class="img-fluidd" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Blog+Box+_1.png" alt="" srcset=""></p>
                 <p class="  my-auto ms-2">
-                  <li class="fw-semibold ms-5  ps-1">Unico Home Loans: Unveiling the ABCs of Homeownership</li>
+                  <li class="fw-semibold ms-5 sideblogcontent ps-4 ps-md-1">Unico Home Loans: Unveiling the ABCs of Homeownership</li>
                 </p>
                 <hr>
               </div>
@@ -770,21 +770,21 @@ include './layout/mobileNav.php'; ?>
               <div class="d-flex justify-content-start align-items-center gap-2   py-3 botm_border">
                 <p class="m-0 p-0 col-1"> <img class="img-fluidd" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Blog+Box+_3.png" alt="" srcset=""></p>
                 <p class="m-0 p-0 my-auto ms-2">
-                  <li class="fw-semibold ms-5  ps-1">Build Your Dream: Unico's Loan Against Property - Your Key to Possibilities</li>
+                  <li class="fw-semibold ms-5 sideblogcontent ps-4 ps-md-1">Build Your Dream: Unico's Loan Against Property - Your Key to Possibilities</li>
                 </p>
                 <hr>
               </div>
               <div class="d-flex justify-content-start align-items-center gap-2  py-3 botm_border ">
                 <p class="m-0 p-0 col-1"> <img class="img-fluidd" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Blog+Box+_4.png" alt="" srcset=""></p>
                 <p class="m-0 p-0 my-auto ms-2">
-                  <li class="fw-semibold ms-5  ps-1">Invest in your Future with Unico’s Commercial Property Loan</li>
+                  <li class="fw-semibold ms-5 sideblogcontent ps-4 ps-md-1">Invest in your Future with Unico’s Commercial Property Loan</li>
                 </p>
                 <hr>
               </div>
               <div class="d-flex justify-content-start align-items-center gap-2   py-3 botm_border">
                 <p class="m-0 p-0 col-1"> <img class="img-fluidd" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Blog+Box+_5+1.png" alt="" srcset=""></p>
                 <p class="m-0 p-0 my-auto ms-2">
-                  <li class="fw-semibold ms-5  ps-1">Unico & Oracle: Shaping Dreams for India's Homebuyers</li>
+                  <li class="fw-semibold ms-5 sideblogcontent ps-4 ps-md-1">Unico & Oracle: Shaping Dreams for India's Homebuyers</li>
                 </p>
                 <hr>
               </div>

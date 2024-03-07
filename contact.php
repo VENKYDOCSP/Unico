@@ -72,20 +72,20 @@ include './layout/mobileNav.php';
                         <div class="pt-md-5 pt-4">
                             <ul class="d-flex justify-content-start align-items-center p-0">
                                 <a href="https://www.facebook.com/people/Unico-Housing-Finance-Private-Limited/61553679195669/" target="_blank">
-                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img123.svg" class="img-fluid" /></li>
+                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_3.svg" class="img-fluid" /></li>
                                 </a>
                                 <a href="https://twitter.com/UnicoHousing" target="_blank">
-                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img124.svg" class="img-fluid" /></li>
+                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_5.svg" class="img-fluid" /></li>
                                 </a>
                                 <a href="https://www.linkedin.com/in/unico-housing-finance-7b245b2a1/" target="_blank">
-                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img125.svg" class="img-fluid" /></li>
+                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_4.svg" class="img-fluid" /></li>
                                 </a>
                                 <a href="https://www.instagram.com/unicohousingfinance/" target="_blank">
-                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img126.svg" class="img-fluid" /></li>
+                                    <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/he_so_2.svg" class="img-fluid" /></li>
                                 </a>
-                                <a href="https://www.instagram.com/unicohousingfinance/" target="_blank">
+                                <!-- <a href="https://www.instagram.com/unicohousingfinance/" target="_blank">
                                     <li class="ps-md-3 ps-2 "><img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/img127.svg" class="img-fluid" /></li>
-                                </a>
+                                </a> -->
                             </ul>
                         </div>
                         <div>
