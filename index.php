@@ -24,7 +24,7 @@ include './layout/mobileNav.php'; ?>
 
   <div class="container bg-white mt-4 mt-md-0" style="z-index:9">
     <div class="row  pt-5   justify-content-center ">
-      <div class="col-12 col-md-4 p-2   my-auto text-center  ">
+      <div class="col-12 col-md-4 p-2   my-auto text-md-start text-center  ">
         <img class="img-fluid text-start d-none d-md-block" data-aos="fade-down-right" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/react.svg" alt="">
         <p class="our_prodct ms-4 mt-0 pt-0" data-aos="fade-right">Our <span>Products</span></p>
         <p class="ms-md-4 fw-semibold  mt-1 ps-1 " data-aos="fade-right">Customized loan options for your aspirations.</p>
@@ -280,39 +280,39 @@ include './layout/mobileNav.php'; ?>
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide d-flex">
-              <div class="row justify-content-center  align-items-center y_chose_cotent">
-                <div class="col-4 text-end ">
+              <div class="flex-md-row d-flex flex-column justify-content-center  align-items-center y_chose_cotent">
+                <div class="col-12 col-md-4 text-end ">
                   <p class="pe-4  text-center"><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/01.png" alt=""></p>
                 </div>
-                <div class="col-4 splide_contain">
-                  <p class="lh-base  fw-bold text-white pe-4">Quick Approvals, Simplified Process:</p>
-                  <p class="lh-lg text-light  pe-3">Recognizing your urgency, we streamline pre-loan formalities to expedite decisions and provide quicker access to your dream home. </p>
+                <div class="col-12 col-md-4 splide_contain">
+                  <p class="lh-base  fw-bold text-white pe-4 text-center text-md-start">Quick Approvals, Simplified Process:</p>
+                  <p class="lh-lg text-light  pe-3 text-center text-md-start">Recognizing your urgency, we streamline pre-loan formalities to expedite decisions and provide quicker access to your dream home. </p>
                 </div>
-                <div class="col-4 "> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div>
+                <div class="col-12 col-md-4 "> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div>
               </div>
             </li>
             <li class="splide__slide d-flex">
               <div class="row  py-5 align-items-center ">
-                <div class="col-4 text-end ">
+                <div class="col-12 col-md-4 text-end ">
                   <p class="pe-4  text-center"><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/02.png" alt=""></p>
                 </div>
-                <div class="col-4 splide_contain">
-                  <p class="lh-base  fw-bold text-white pe-3">Seamless Documentation, Reduced Paperwork:</p>
-                  <p class="lh-lg text-light  pe-3">We emphasize a straightforward documentation process, guaranteeing a smooth journey towards your dream space.</p>
+                <div class="col-12 col-md-4 splide_contain">
+                  <p class="lh-base  fw-bold text-white  text-center text-md-start pe-3">Seamless Documentation, Reduced Paperwork:</p>
+                  <p class="lh-lg text-light  pe-3 text-center text-md-start">We emphasize a straightforward documentation process, guaranteeing a smooth journey towards your dream space.</p>
                 </div>
-                <div class="col-4 text-center"> <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player> </div>
+                <div class="col-12 col-md-4 text-center"> <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player> </div>
               </div>
             </li>
             <li class="splide__slide d-flex">
               <div class="row  py-5 align-items-center ">
-                <div class="col-4 text-end ">
+                <div class="col-12 col-md-4 ">
                   <p class="pe-4  text-center"><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/03.png" alt=""></p>
                 </div>
-                <div class="col-4 splide_contain">
-                  <p class="lh-base  fw-bold text-white pe-3">Digital Ease, Constant Connectivity:</p>
-                  <p class="lh-lg text-light pe-3">Our intuitive digital tools provide round-the-clock access to account details, payments, and support, empowering you at every stage.</p>
+                <div class="col-12 col-md-4 splide_contain">
+                  <p class="lh-base  fw-bold text-white pe-3 text-center text-md-start">Digital Ease, Constant Connectivity:</p>
+                  <p class="lh-lg text-light pe-3 text-center text-md-start">Our intuitive digital tools provide round-the-clock access to account details, payments, and support, empowering you at every stage.</p>
                 </div>
-                <div class="col-4 text-center"> <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player> </div>
+                <div class="col-12 col-md-4 text-center"> <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player> </div>
               </div>
             </li>
           </ul>
