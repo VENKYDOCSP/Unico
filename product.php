@@ -42,9 +42,9 @@ include './layout/mobileNav.php'; ?>
         </script>
       <?php } ?>
     </div>
-    <h2 class="mb-3 text-center text-white  getstart"> Apply Now - Achieve Dreams
+    <h2 class="mb-3 text-center text-white  getstart py-3 py-md-0 fs-3"> Apply Now - Achieve Dreams
     </h2>
-    <form class="unicoForm  px-md-4 py-md-5 " action="formdb.php" method="post" autocomplete="off">
+    <form class="unicoForm px-3 py-3 px-md-4 py-md-5 " action="formdb.php" method="post" autocomplete="off">
       <div class="mb-4 borderForInput m">
         <input class="form-control border-0" type="text" placeholder="Full Name" name="name" aria-label="default input example" required oninput="validateText(event)">
       </div>
@@ -84,58 +84,58 @@ include './layout/mobileNav.php'; ?>
 </div>
 <div class="container-fluid py-md-5" style="background-color: #E7E7E7;">
   <div class="row pt-5">
-    <div class="col-12 col-md-5 servicetitle p-md-5 ">
-      <h1 class="ps-5" data-aos="fade-right" data-aos-duration="600">OUR SERVICES</h1>
-      <p class="  ps-5" data-aos="fade-right" data-aos-duration="800">Custom-made services to meet your needs
+    <div class="col-12 col-md-5 servicetitle p-md-5 p-2 ">
+      <h1 class="ps-3 ps-md-5" data-aos="fade-right" data-aos-duration="600">OUR SERVICES</h1>
+      <p class=" ps-3 ps-md-5" data-aos="fade-right" data-aos-duration="800">Custom-made services to meet your needs
       </p>
     </div>
-    <div class="col-12 col-md-7 servicecol  ">
+    <div class="col-12 col-md-7 servicecol py-3 py-md-0 ">
       <div class="row services mx-4  ">
         <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="600">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service1.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service1.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Customized services delivered at your doorsteps</h2>
         </div>
         <div class="servbox m-md-4   " data-aos="zoom-in" data-aos-duration="800">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service3.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service3.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Simple documentation </h2>
         </div>
         <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1000">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service4.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service4.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Instant loan approval</h2>
         </div>
         <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1200">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service5.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service5.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">No ITR</h2>
         </div>
         <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1400">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service6.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service6.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Fast loan disbursement</h2>
         </div>
         <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1600">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service7.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service7.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Support in getting government Documents / legal records</h2>
         </div>
         <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1800">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service8.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service8.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Loans with long repayment period</h2>
         </div>
         <div class="servbox m-md-4 ">
           <p class="d-flex justify-content-center ">
-            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service9.svg" alt="">
+            <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service9.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Affordable interest rates</h2>
         </div>
@@ -146,35 +146,35 @@ include './layout/mobileNav.php'; ?>
 <div class="pt-4 " style="background-color: #E7E7E7;">
   <div class="container    justify-content-center pt-5">
     <div class="row    justify-content-center align-items-center ">
-      <div class="col-12 col-md-6        "><img class="img-fluid" data-aos="fade-right" data-aos-duration="1000" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/abtpro.png" alt=""></div>
+      <div class="col-12 col-md-6      mt-3  "><img class="img-fluid" data-aos="fade-right" data-aos-duration="1000" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/abtpro.png" alt=""></div>
       <div class="col-12 col-md-4    ps-2 my-auto ">
-        <p class="topvec">
-          <img class="img-fluid text-start" data-aos="fade-down" data-aos-duration="1000" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Vector+30+(1).svg" alt="">
+        <p class="topvec mt-3 mt-md-0">
+          <img class="img-fluid text-start mt-3 mt-md-0" data-aos="fade-down" data-aos-duration="1000" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Vector+30+(1).svg" alt="">
         </p>
         <h2 class="sell_product ps-3 mb-md-0 ms-2 " data-aos="fade-left" data-aos-duration="1000">Improve your living space with Home Renovation Loan!</h2>
         <p class=" fw-semibold sellprodes pe-md-5 ps-4 py-md-2 mt-2" data-aos="fade-left" data-aos-duration="1000">Enhance your living experience while adding equity to your property, creating a lasting return on your investment. </p>
-        <div class=" ps-md-2 ">
+        <div class=" ps-md-2 pb-3 pb-md-0 ms-4 ms-md-0">
           <a href="#banner"> <button class=" ms-md-3   fs-5 sellbtn" data-aos="fade-left" data-aos-duration="1000">Apply for loan</button></a>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="frquently_const  py-5  mt-4" data-aos="fade-up" data-aos-duration="600">
+<div class="frquently_const  py-5  mt-0 mt-md-4" data-aos="fade-up" data-aos-duration="600">
   <div class="container  p-3 bg-white rounded-5  shadow   ">
     <div class="prod_text_bg mx-2 ">
       <div class="row m-4 justify-content-center align-items-center pt-4 pb-3">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <p class="fs-2 frequently_desc ">Frequently <span class="">Asked Questions</span></p>
           <p>Answers to your home financing queries</p>
         </div>
-        <div class="col-6 ">
+        <div class="col-12 col-md-6">
           <!-- <div class="col-10 align-items-center px-3"> -->
-          <div class="col-7 mx-auto">
+          <div class="col-12 col-md-7 mx-auto">
             <div class="    d-flex justify-content-around   bg_cont_tab rounded-pill align-items-center  border border-dark  ">
-              <p class=" px-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  "   onclick="opendiv('General')">General</p>
+              <p class=" px-4 px-md-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  "   onclick="opendiv('General')">General</p>
               <!-- <p class="bg_select_nilt  bg-hover DivHighlight px-5  mt-1 ms-2   fs-5 rounded-pill  my-1 " onclick="opendiv('Finance')">Finance </p> -->
-              <p class="bg_select_nilt  bg-hover DivHighlight  px-5  mt-1 ms-2   fs-5 rounded-pill me-2  my-1"   onclick="opendiv('Loans')">Loans</p>
+              <p class="bg_select_nilt  bg-hover DivHighlight px-4 px-md-5 mt-1 ms-2   fs-5 rounded-pill me-2  my-1"   onclick="opendiv('Loans')">Loans</p>
             </div>
           </div>
           <!-- </div> -->
@@ -184,8 +184,8 @@ include './layout/mobileNav.php'; ?>
     <div class=""></div>
     <!-- show selectd data rows -->
     <div class="Variable" id="General">
-      <div class="row justify-content-between px-4 ">
-        <div class="col-6 pb-4">
+      <div class="row justify-content-between px-1 px-md-4 ">
+        <div class="col-12 col-md-6 pb-4">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingOne">
@@ -225,7 +225,7 @@ include './layout/mobileNav.php'; ?>
             </div>
           </div>
         </div>
-        <div class="col-6 pb-4">
+        <div class="col-12 col-md-6 pb-4">
           <div class="accordion" id="accordionExample1">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingO">
@@ -353,7 +353,7 @@ include './layout/mobileNav.php'; ?>
     </div> -->
     <div class="Variable" id="Loans" style="display:none">
       <div div class="row justify-content-between px-4 ">
-        <div class="col-6 pb-4">
+        <div class="col-12 col-md-6 pb-4">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingOne">
@@ -390,7 +390,7 @@ include './layout/mobileNav.php'; ?>
             </div>
           </div>
         </div>
-        <div class="col-6 pb-4">
+        <div class="col-12 col-md-6 pb-4">
           <div class="accordion" id="accordionExample1">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingO">

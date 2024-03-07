@@ -182,3 +182,31 @@
     color: #717171;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 768px) {
+    .career_img {
+        margin-top: 0%;
+    }
+
+    .title_team {
+
+        font-size: 38px;
+
+    }
+
+    .perfect_job {
+
+        font-size: 30px;
+    }
+
+    .perfect_job>span {
+
+        font-size: 30px;
+    }
+
+    .team_role {
+   
+        margin-top: 20px;
+    }
+}

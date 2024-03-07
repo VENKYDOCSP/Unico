@@ -326,8 +326,24 @@
         slidesToScroll: 1,
         adaptiveHeight: true,
         prevArrow: '<button class=" serv-prev-arrow"></button>',
-        nextArrow: '<button class=" serv-next-arrow"></button>'
-    });
+        nextArrow: '<button class=" serv-next-arrow"></button>' ,
+         responsive: [{
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 575,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    
 </script>
 <!-- blog_new_carousel -->
 <script type="text/javascript">
