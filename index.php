@@ -244,13 +244,16 @@ include './layout/mobileNav.php'; ?>
   </div>
   <div class="row p-o m-0 justify-content-center d-md-block d-none ">
     <div class="col-12 p-0 m-0">
-      <div class="phonecont" id="animationWindow" >
+      <div class="phonecont" id="animationWindow">
       </div>
     </div>
   </div>
   <div class="row p-o m-0 justify-content-center d-md-none d-block ">
-
-    <lottie-player src="./assets/mobileLottie.json" background="transparent" speed="1" direction="1" mode="normal" loop autoplay></lottie-player>
+    <div class="col-12 p-0 m-0">
+      <div class="phonecont" id="animationWindowMobile">
+      </div>
+    </div>
+    <!-- <lottie-player src="./assets/mobileLottie.json" background="transparent" speed="1" direction="1" mode="normal" loop autoplay></lottie-player> -->
   </div>
 
   <!-- testing gf -->
@@ -261,12 +264,15 @@ include './layout/mobileNav.php'; ?>
       <div class=" row p-md-5">
         <div class="col-12 col-lg-6 py-md-5 my-md-5 py-5 pe-0">
           <div class="pb-3 ">
-            <p class="rentalhome_sub_txt " data-aos="fade-right" data-aos-duration="800">"Why spend money on rental homes <span>unnecessarily?"</span></p>
-            <p class="fs-6 pe-1 pe-lg-5 lh-lg col-lg-9" data-aos="fade-right" data-aos-duration="1000">Own your dream home with Unico Housing Finance and transform your rent into monthly instalments for your own house.</p>
-
-            <a class="" href="./product.php"> <button class="py-3 px-5 y_waste_money_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
+            <p class="rentalhome_sub_txt text-md-start text-center" data-aos="fade-right" data-aos-duration="800">"Why spend money on rental homes <span>unnecessarily?"</span></p>
+            <p class="fs-6 pe-1 pe-lg-5 lh-lg col-lg-9 text-md-start text-center" data-aos="fade-right" data-aos-duration="1000">Own your dream home with Unico Housing Finance and transform your rent into monthly instalments for your own house.</p>
+            <div class="d-md-none d-block d-flex justify-content-center align-items-center">
+              <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Island.svg" class="img-fluid " />
+            </div>
+            <a class="d-flex justify-content-md-start justify-content-center align-items-center" href="./product.php"> <button class="py-3 px-5 y_waste_money_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -415,21 +421,21 @@ include './layout/mobileNav.php'; ?>
       <div class="container  py-5">
         <div class="row">
           <div class="col-md-6 col-12 pt-5  ">
-            <!-- <p><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/getcallbk_img.png" alt=""></p> -->
+            <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/House_3D_Without_Graphic_1-2+2.png" alt="" class="d-md-none d-block">
           </div>
           <div class="col-md-6 col-12 align-self-end" data-aos="fade-left" data-aos-duration="1000">
             <div class="get_call_bk_cont  rounded-4 py-3 ps-5 pe-5">
               <p class="fs-2 text-white fw-semibold mt-5 get_hed mb-1">Get a Call Back</p>
               <p class="   fw-semibold  " style="color: #514C4C;">We're available 24/7. Connect with us directly, anytime!</p>
-              <div class="d-flex justify-content-between align-items-center  mt-5">
-                <input class="get_call_bk_inputs ps-1  col-md-5 col-6" placeholder="Your name" type="text" name="" id="">
-                <input class="get_call_bk_inputs ps-1 col-md-5 col-6" placeholder="Phone Number" type="text" name="" id="">
+              <div class="d-flex  flex-md-row flex-column justify-content-between align-items-center  mt-md-5">
+                <input class="get_call_bk_inputs ps-1  col-md-5 col-12" placeholder="Your name" type="text" name="" id="">
+                <input class="get_call_bk_inputs ps-1 col-md-5 col-12 pt-md-0 pt-4" placeholder="Phone Number" type="text" name="" id="">
               </div>
-              <div class="d-flex justify-content-between align-items-center mt-5">
-                <input class="get_call_bk_inputs ps-1 col-md-5 col-6" placeholder="Mail Id" type="email" name="" id="">
-                <input class="get_call_bk_inputs ps-1 col-md-5 col-6" placeholder="Pincode" type="Pincode" name="" id="">
+              <div class="d-flex flex-md-row flex-column justify-content-between align-items-center mt-md-5">
+                <input class="get_call_bk_inputs ps-1 col-md-5 col-12 pt-md-0 pt-4" placeholder="Mail Id" type="email" name="" id="">
+                <input class="get_call_bk_inputs ps-1 col-md-5 col-12 pt-md-0 pt-4" placeholder="Pincode" type="Pincode" name="" id="">
               </div>
-              <div class="mt-3 pb-4"><button class="py-3   get_cal_bk_btn mt-3 fs-5 fw-semibold rounded-5 ">Submit</button></div>
+              <div class="mt-3 pb-4 d-flex justify-content-md-start align-items-start justify-content-center "><button class="py-md-3 py-2   get_cal_bk_btn mt-3 fs-5 fw-semibold rounded-5 ">Submit</button></div>
             </div>
           </div>
         </div>
