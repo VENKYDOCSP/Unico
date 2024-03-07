@@ -19,7 +19,7 @@ include './layout/mobileNav.php';
     <div class="solutioncontainer">
         <div class="container ">
             <div class="row d-flex align-items-center justify-content-between">
-                <div class="col-12 col-md-6 solutionDream ps-md-4 pe-md-5 " data-aos="fade-up">
+                <div class="col-12 col-md-6 solutionDream ps-md-4 pe-md-5 order-md-0 order-1" data-aos="fade-up">
                     <h1 class="solutionDream py-md-1 mt-4 mt-md-1">Every Solution
                         For Your Dream Home</h1>
                     <p class="py-md-2  " style="text-align: justify;"><span>Unico Housing Finance</span> stands as a new-age, digitally-driven housing finance entity officially recognized by the Reserve Bank of India under registration number DOR-00187, dated October 16, 2023. </p>
@@ -27,7 +27,7 @@ include './layout/mobileNav.php';
                     <p id="more" style="text-align: justify;">Our primary commitment lies in delivering affordable housing loan solutions and services to meet the credit needs of underserved and New-to-credit customer segments, thus empowering them and fostering a sense of pride in homeownership. Our pledge is to guarantee an unparalleled customer service experience through the integration of cutting-edge technology for enhanced convenience and accessibility. Unico’s array of solutions is meticulously crafted to cater to diverse home financial requirements within the affordable housing segment, ensuring a range of advantageous options for individuals.</p>
                     <button class="soloution_knowmore mb-5 mt-2 mt-md-1" onclick="toggleMore()" id="myBtn">Read More</button>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 order-md-1 order-0 pt-md-auto pt-3">
                     <img class="img-fluid" data-aos="zoom-in-right" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/House+2+1+(1).jpg" alt="">
                 </div>
             </div>
