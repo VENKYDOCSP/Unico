@@ -544,7 +544,7 @@
 <script>
     var splide = new Splide('.splide', {
         direction: 'ttb',
-        height: '60vh',
+        height: '70vh',
         wheel: true,
         focus: 'center',
         arrows: false,
@@ -552,7 +552,12 @@
         omitEnd: true,
         releaseWheel: true,
         cover: true,
-        wheelSleep: 900, // Increased wheelSleep to slow down the scroll speed
+        wheelSleep: 900,
+        breakpoints: {
+            575: {
+                height: '40vh',
+            }
+        },
         slide: function(splide, index) {
             // Adjust the speed for changing to the next slide based on index or other conditions
         }

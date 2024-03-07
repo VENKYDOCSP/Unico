@@ -1366,7 +1366,7 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
     font-size: 14px !important;
   }
   .splide_contain p:nth-child(2) {
-    font-size: 8px;
+    font-size: 14px;
   }
   .sideblogcontent {
     font-size: 15px;
@@ -1389,7 +1389,7 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
     margin-top: 0px;
   }
   .y_chose_cotent {
-    padding-top: 20%;
+    padding-top: 0%;
   }
   .get_cal_back_bk {
     background: none;
