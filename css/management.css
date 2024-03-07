@@ -1,99 +1,136 @@
 .dirtitle {
-    border-radius: 0px 0px 30px 30px;
-    background: #FFEAEA;
-    margin-bottom: 50px;
+  border-radius: 0px 0px 30px 30px;
+  background: #ffeaea;
+  margin-bottom: 50px;
 }
 
 .dirtitle h1 {
-    color: #626D76;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Montserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 108.197%;
-    /* 51.934px */
+  color: #626d76;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 108.197%;
+  /* 51.934px */
 }
 
 .managmentbg {
-    /* border-radius: 0px 60px 0px 60px !important;
+  /* border-radius: 0px 60px 0px 60px !important;
     background: #FFEAEA; */
-    /* height: 300px !important; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end !important;
-
+  /* height: 300px !important; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end !important;
 }
 
 .managmentbg p:first-of-type {
-    display: none;
+  display: none;
 }
 
 .managmentbg h3 {
-    color: #747487;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 108.197%;
-    /* margin-top: 13px; */
-    /* 31.377px */
+  color: #747487;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108.197%;
+  /* margin-top: 13px; */
+  /* 31.377px */
 }
 
 .managmentbg h5 {
-    color: #2D2D2D;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 108.197%;
-    padding: 5px;
-    /* 19.475px */
+  color: #2d2d2d;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108.197%;
+  padding: 5px;
+  /* 19.475px */
 }
 
 .managmentbg p {
-    color: #404040;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 11.902px */
-    /* height: 90px; */
+  color: #404040;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 11.902px */
+  /* height: 90px; */
 }
 
 .managmentbg button {
-    border-radius: 10px;
-    border-radius: 20px;
-    background: #F48B95 !important;
-    color: #ffffff;
-    text-align: justify;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
-    width: 98px;
-    height: 24px;
-    border: none;
+  border-radius: 10px;
+  border-radius: 20px;
+  background: #f48b95 !important;
+  color: #ffffff;
+  text-align: justify;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  width: 98px;
+  height: 24px;
+  border: none;
 }
 
 .directborder {
-    /* border-radius: 0px 60px 0px 60px !important; */
-    /* border: none !important; */
-
+  /* border-radius: 0px 60px 0px 60px !important; */
+  /* border: none !important; */
 }
 
 .direcimg {
-    /* position: relative;
+  /* position: relative;
     top: 15%;*/
 }
 
 .mangminus {
-    /* margin-top: -5%; */
-    margin-bottom: 30px
+  /* margin-top: -5%; */
+  margin-bottom: 30px;
 }
 
 .mang_side_gap {
-    margin: 0 120px 0 120px
+  margin: 0 120px 0 120px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mang_side_gap {
+    margin: auto;
+  }
+
+  .dirtitle h1 {
+    font-size: 32px !important;
+  }
+
+  .managmentbg h5 {
+    height: 35px;
+  }
+
+  .managmentbg h5 {
+    font-size: 14px !important;
+  }
+  .managmentbg h3 {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dirtitle h1 {
+    font-size: 32px !important;
+  }
+
+  .mang_side_gap {
+    margin: auto;
+  }
+
+  .mangminus {
+    margin-bottom: 10px;
+  }
+
+  .personDetails {
+    font-size: 14px !important;
+  }
 }

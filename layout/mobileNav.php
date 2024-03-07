@@ -18,7 +18,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li class="ps-4 mt-2"><a class="<?php if (isset($active) && $active === 1) echo "active" ?> fw-bold" href="./companyProfile.php" style="color:black !important">Company Profile</a></li>
-                        <li class="ps-4 mt-2"><a class=" <?php if (isset($active) && $active === 1) echo "active" ?> fw-bold" href="./boardOfDirectors.php" style="color:black !important">Board of Directors</a></li>
+                        <li class="ps-4 mt-2"><a class=" <?php if (isset($active) && $active === 1) echo "active" ?> fw-bold" href="./directors.php" style="color:black !important">Board of Directors</a></li>
                         <li class="ps-4 mt-2"><a class="<?php if (isset($active) && $active === 1) echo "active" ?> fw-bold" href="./management.php" style="color:black !important">Management</a></li>
                     </ul>
                 </li>
@@ -48,7 +48,7 @@
                     <a class="nav-link" href="careers.php">Careers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactus.php">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>

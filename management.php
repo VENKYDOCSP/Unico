@@ -34,7 +34,7 @@ include './layout/mobileNav.php';
             </div>
         </div>
     </div>
-    <div class="container     ">
+    <div class="container">
         <div class="row  mang_side_gap">
             <div class="col-12 col-md-4 mx-auto text-center" data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management1.png" alt="">
@@ -48,7 +48,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mx-auto text-center" data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 mx-auto pt-md-0 pt-3 text-center" data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management2.png" alt="">
                 <div class="directborder p-2 p-md-2 ">
                     <div class="managmentbg   text-center">
@@ -60,7 +60,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mx-auto text-center " data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 mx-auto pt-md-0 pt-3 text-center " data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management3.png" alt="">
                 <div class="directborder p-2 p-md-2">
                     <div class="managmentbg   text-center">
@@ -74,8 +74,8 @@ include './layout/mobileNav.php';
             </div>
         </div>
     </div>
-    <div class="container   pt-2  mt-5  pb-md-5 mb-md-3">
-        <div class="row   justify-content-center mang_side_gap">
+    <div class="container   pt-md-2  pt-3  mt-md-5  pb-md-5 pb-4 mb-md-3">
+        <div class="row   justify-content-center mang_side_gap gap-lg-0 gap-3">
             <div class="col-12 col-md-4   text-center" data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management4.png" alt="">
                 <div class="directborder p-2 p-md-2">
@@ -88,7 +88,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4   text-center" data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 pt-md-0 pt-3  text-center" data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management5.png" alt="">
                 <div class="directborder p-2 p-md-2">
                     <div class="managmentbg   text-center">
@@ -120,21 +120,22 @@ include './layout/mobileNav.php';
         <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/mangemnet_img.png" alt="" srcset="">
     </div> -->
 </section>
+
 <div class="modal fade shadow " id="staticBackdrop4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog   modal-lg" role="document">
         <div class="modal-content rounded-3">
             <div class="modal-header p-0 border-0">
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5 ">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-2 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12 ">
                         <div class="row d-flex justify-content-center pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management1.png" class=" img-fluid " />
                             <h2 class="ps-4">Mr. K. Arun</h2>
-                            <p class="ps-4">Chief Financial Officer</p>
+                            <p class="ps-4 mb-md-auto mb-1">Chief Financial Officer</p>
                         </div>
                     </div>
-                    <div class="col-7 p-0 m-0">
+                    <div class="col-lg-7 col-12 p-0 m-0">
                         <div class="personDetails   text-start">
 
                             <ul class=" ">
@@ -163,17 +164,15 @@ include './layout/mobileNav.php';
 
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-
-
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-2 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Babu.png" class=" img-fulid" />
                             <h2 class="ps-4">Mr. Babu Vellingiri</h2>
-                            <p class="ps-4">Chief Executive Officer</p>
+                            <p class="ps-4 mb-md-auto mb-1">Chief Executive Officer</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails  text-start">
 
                             <ul class=" ">
@@ -203,15 +202,15 @@ include './layout/mobileNav.php';
             <div class="modal-header p-0 border-0">
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-2 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center  pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management2.png" class=" img-fluid " />
                             <h2 class="ps-4">Mr. Manikandan Manickam</h2>
-                            <p class="ps-4">Chief Information Officer</p>
+                            <p class="ps-4 mb-md-auto mb-1">Chief Information Officer</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails text-start">
 
                             <ul class=" ">
@@ -244,15 +243,15 @@ include './layout/mobileNav.php';
             <div class="modal-header p-0 border-0">
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-2 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management3.png" class=" img-fluid " />
                             <h2 class="ps-4">Mr. N. Srinivasan</h2>
-                            <p class="ps-4">Chief People Officer</p>
+                            <p class="ps-4 mb-md-auto mb-1">Chief People Officer</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails   text-start">
 
                             <ul class=" ">
@@ -279,15 +278,15 @@ include './layout/mobileNav.php';
             <div class="modal-header p-0 border-0">
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-2 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management4.png" class=" img-fluid " />
                             <h2 class="ps-4">Ms. Gayathri E</h2>
-                            <p class="ps-4">Company Secretary </p>
+                            <p class="ps-4 mb-md-auto mb-1">Company Secretary </p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails   text-start">
 
                             <ul class=" ">
@@ -314,28 +313,32 @@ include './layout/mobileNav.php';
             <div class="modal-header p-0 border-0">
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="row d-flex justify-content-center pop_up_img">
-                        <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management5.png" class=" img-fluid " />
-                        <h2 class="ps-4">Mr. L. Karthikeyan</h2>
-                        <p class="ps-4">Head – Centralised Operations</p>
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-2 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
+                        <div class="row d-flex justify-content-center pop_up_img">
+                            <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/management5.png" class=" img-fluid " />
+                            <h2 class="ps-4">Mr. L. Karthikeyan</h2>
+                            <p class="ps-4">Head – Centralised Operations</p>
+                        </div>
                     </div>
-                    <div class="personDetails   text-start  ">
+                    <div class="col-lg-7 col-12">
+                        <div class="personDetails   text-start  ">
 
-                        <ul class="model_lst ">
-                            <li>
-                                Over 24 years of experience handling operations in manufacturing, banking, and Financial services institutions.
-                            </li>
-                            <li>
-                                Experience in the back-end operations of banks and instrumental in the implementation of various digital initiatives with Equitas Small Finance Bank and Samunnnati.
-                            </li>
-                            <li>
-                                Worked in corporations like Saint Gobain, L&T, and Caterpillar.
-                            </li>
-                            <li>
-                                MS in Manufacturing Management (BITS Bilani) PG programme in Data Science and Business Analytics at Great Lakes Institute, Texas.
-                            </li>
-                        </ul>
+                            <ul class="model_lst ">
+                                <li>
+                                    Over 24 years of experience handling operations in manufacturing, banking, and Financial services institutions.
+                                </li>
+                                <li>
+                                    Experience in the back-end operations of banks and instrumental in the implementation of various digital initiatives with Equitas Small Finance Bank and Samunnnati.
+                                </li>
+                                <li>
+                                    Worked in corporations like Saint Gobain, L&T, and Caterpillar.
+                                </li>
+                                <li>
+                                    MS in Manufacturing Management (BITS Bilani) PG programme in Data Science and Business Analytics at Great Lakes Institute, Texas.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

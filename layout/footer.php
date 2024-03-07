@@ -1,20 +1,20 @@
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <section class="container-fluid footer">
     <section class="container-lg pt-md-5 ">
-        <div class="row">
-            <p class="dar_hr"></p>
-            <div class="col-12 col-md-6 py-md-4 px-md-5  ">
-                <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/foter_logo.svg" alt="">
-                <p class="py-md-4  font_fmly mt-4 mt-md-0 "> Unico Housing Finance Private Limited, an RBI-registered housing finance company, is dedicated to offering affordable housing solutions for lower and middle-income customers. Unico’s services provide diverse benefits, catering to individuals in the affordable housing segment.</p>
+        <div class="row pt-md-0 pt-3">
+            <p class="dar_hr "></p>
+            <div class="col-12 col-md-6 py-md-4 px-md-5 pt-md-0 pt-3 ">
+                <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/foter_logo.svg" alt="" class="logoForFooter">
+                <p class="py-md-4  font_fmly mt-3 mt-md-0 "> Unico Housing Finance Private Limited, an RBI-registered housing finance company, is dedicated to offering affordable housing solutions for lower and middle-income customers. Unico’s services provide diverse benefits, catering to individuals in the affordable housing segment.</p>
             </div>
             <div class="col-12 col-md-6 pt-md-4 px-md-5 mt-md-5 resourcesfooter">
-                <h2 class="font_fmly">Address</h2>
+                <h2 class="font_fmly Addressmobile">Address</h2>
                 <div class="row">
                     <div class="pt-md-4 col-12 col-md-12 footer_resource">
-                        <p class=" font_fmly mt-2 mt-md-0"><span> <span class="fw-semibold">Register Offcie : Unico Housing Finance Private Limited</span> <br> 8th Floor, The Oval, No. 10 & 12, Venkata Narayana Road, T. Nagar, Tamil Nadu, Chennai- 600017.</span></p>
+                        <p class=" font_fmly mt-md-0 mb-md-auto mb-0"><span> <span class="fw-semibold">Register Offcie : Unico Housing Finance Private Limited</span> <br> 8th Floor, The Oval, No. 10 & 12, Venkata Narayana Road, T. Nagar, Tamil Nadu, Chennai- 600017.</span></p>
                     </div>
                 </div>
-                <div class="pt-md-3">
+                <div class="pt-md-3 pt-2">
                     <ul class="d-flex justify-content-start align-items-center p-0">
                         <p class="mb-0  font_fmly">Follow us on :</p>
                         <a href="https://www.facebook.com/people/Unico-Housing-Finance-Private-Limited/61553679195669/" target="_blank">
@@ -34,7 +34,7 @@
             </div>
             <hr>
         </div>
-        <div class="d-inline d-md-flex  justify-content-between align-items-center p-0">
+        <div class="d-inline d-md-flex  justify-content-between align-items-center p-0 fontHeading">
             <div class="d-flex justify-content-around align-items-center py-md-3">
                 <li class="px-md-4 foo_txt_clr"><a class="foo_txt_clr" href="./">Home</a></li>
                 <li class="px-md-4 foo_txt_clr"><a class="foo_txt_clr" href="companyprofile.php">Company Profile</a></li>
@@ -350,7 +350,7 @@
             arrows: false,
             infinite: true,
             // speed: 300,
-            slidesToShow:4,
+            slidesToShow: 4,
             slidesToScroll: 1,
             vertical: true,
             autoplay: true,

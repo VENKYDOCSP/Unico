@@ -52,7 +52,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mx-auto text-center" data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 pt-md-0 pt-3 mx-auto text-center" data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_3.png" alt="">
                 <div class="directborder p-2 p-md-2">
                     <div class="directorbg   pb-md-2   px-md-1  text-center">
@@ -64,7 +64,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mx-auto text-center " data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 pt-md-0 pt-3 mx-auto text-center " data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_5.png" alt="">
                 <div class="directborder p-2 p-md-2">
                     <div class="directorbg   pb-md-2   px-md-1  text-center">
@@ -94,7 +94,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mx-auto text-center" data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 mx-auto pt-md-0 pt-3 text-center" data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_6.png" alt="">
                 <div class="directborder p-2 p-md-2">
                     <div class="directorbg   pb-md-2   px-md-1  text-center">
@@ -106,7 +106,7 @@ include './layout/mobileNav.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mx-auto text-center " data-aos="fade-up" data-aos-duration="600">
+            <div class="col-12 col-md-4 mx-auto pt-md-0 pt-3 text-center " data-aos="fade-up" data-aos-duration="600">
                 <img class=" direcimg img-fluid" style="transform: scaleX(-1);" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_7.png" alt="">
                 <div class="directborder p-2 p-md-2">
                     <div class="directorbg  pb-md-2  px-md-1  text-center">
@@ -179,26 +179,30 @@ include './layout/mobileNav.php';
         <div class="modal-content rounded-3">
 
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center  d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="row d-flex justify-content-center  pop_up_img">
-                        <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_1.png" class=" img-fluid " />
-                        <h2 class="ps-4">Mr.N.Rangachary</h2>
-                        <p class="ps-4"> Chairman </p>
+                <div class="people-detail-page2 text-center  d-flex  flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
+                        <div class="row d-flex justify-content-center  pop_up_img">
+                            <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_1.png" class=" img-fluid " />
+                            <h2 class="ps-4">Mr.N.Rangachary</h2>
+                            <p class="ps-4 mb-md-auto mb-1"> Chairman </p>
+                        </div>
                     </div>
-                    <div class="personDetails ps-3 pe-3 pt-3 pb-2 text-start">
-                        <ul class="pe-4">
-                            <li> Over 4.5 decades of experience in Accounting, Tax, Insurance and financial services. </li>
-                            <li> Presently Chairman of Salzer electronics Ltd. Coimbatore, Kaycee industries Ltd Mumbai & CDSL insurance repository Ltd.
-                            </li>
-                            <li> Was Chairman of Equitas Holdings Ltd, Oriental green products Ltd and director of Pegasus asset reconstruction private Ltd.
-                            </li>
-                            <li>Joined the Indian Revenue Services and was appointed as the Chairman of Central Board of Direct Taxes in 1995. </li>
-                            <li>Chairman of the Insurance Regulatory and Development Authority (“IRDA”) in 1996. </li>
-                            <li>Awarded “International Insurance Man of the Year” in 1999. </li>
-                            <li>Advisor to Finance Department of the Government of Andhra Pradesh between 2003 and 2008. </li>
-                            <li>Honorary member of the Indian Institute of Actuary.</li>
-                            <li>He is a qualified Chartered Accountant, FICWA and FCS</li>
-                        </ul>
+                    <div class="col-lg-7 col-12">
+                        <div class="personDetails ps-3 pe-3 pt-md-3 pb-2 text-start">
+                            <ul class="pe-md-4 pe-0">
+                                <li> Over 4.5 decades of experience in Accounting, Tax, Insurance and financial services. </li>
+                                <li> Presently Chairman of Salzer electronics Ltd. Coimbatore, Kaycee industries Ltd Mumbai & CDSL insurance repository Ltd.
+                                </li>
+                                <li> Was Chairman of Equitas Holdings Ltd, Oriental green products Ltd and director of Pegasus asset reconstruction private Ltd.
+                                </li>
+                                <li>Joined the Indian Revenue Services and was appointed as the Chairman of Central Board of Direct Taxes in 1995. </li>
+                                <li>Chairman of the Insurance Regulatory and Development Authority (“IRDA”) in 1996. </li>
+                                <li>Awarded “International Insurance Man of the Year” in 1999. </li>
+                                <li>Advisor to Finance Department of the Government of Andhra Pradesh between 2003 and 2008. </li>
+                                <li>Honorary member of the Indian Institute of Actuary.</li>
+                                <li>He is a qualified Chartered Accountant, FICWA and FCS</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -214,16 +218,16 @@ include './layout/mobileNav.php';
 
             </div>
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center  d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
+                <div class="people-detail-page2 text-center  d-flex  flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3" style="border-radius: 20px;">
 
-                    <div class="col-5">
+                    <div class="col-md-5 col-12">
                         <div class="row d-flex justify-content-center pop_up_img ">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_2.png" class=" img-fluid " />
                             <h2 class="ps-4">Mr. Prabhakaran A</h2>
-                            <p class="ps-4"> Director</p>
+                            <p class="ps-4 mb-md-auto mb-1"> Director</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails  text-start">
                             <ul class=" ">
                                 <li>
@@ -251,26 +255,30 @@ include './layout/mobileNav.php';
         <div class="modal-content rounded-3">
 
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center  d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="row d-flex justify-content-center  pop_up_img">
-                        <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_3.png" class=" img-fluid " />
-                        <h2 class="ps-4 fs-4">Mr.Jayaraman chandrasekaran</h2>
-                        <p class="ps-4"> Director</p>
+                <div class="people-detail-page2 text-center  d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
+                        <div class="row d-flex justify-content-center  pop_up_img">
+                            <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_3.png" class=" img-fluid " />
+                            <h2 class="ps-4 fs-4">Mr.Jayaraman chandrasekaran</h2>
+                            <p class="ps-4 mb-md-auto mb-1"> Director</p>
+                        </div>
                     </div>
-                    <div class="personDetails   text-start">
+                    <div class="col-lg-7 col-12">
+                        <div class="personDetails   text-start">
 
-                        <ul class=" ">
-                            <li> Mr. Chandrasekaran, a career banker, with an illustrious career spanning over three and a half decades at SBI.</li>
-                            <li> Retired as Chief General Manager in September 2011.</li>
-                            <li> Served as SBI’s nominee director on the Board of SIDBI for 6 years, from June 2012 till June 2018.</li>
-                            <li> Involved in areas of Mid Corporate, SME lending, and Treasury during his career.</li>
-                            <li> Headed the SME lending unit from 2002 to 2007, positioning SBI as a thought leader in SME.</li>
-                            <li> Member of various RBI technical committees on the money and bond markets.</li>
-                            <li> Part of the RBI-appointed Chakravarty Committee on restructuring and rehabilitation of distressed SME units, with recommendations accepted and implemented by RBI.</li>
-                            <li> Currently serving as an Independent Director in Mahaveer Finance India Ltd and GrowXCD Finance Pvt Ltd.,</li>
-                            <li> Holds the position of a Nominee Director at SBI CAP Trustee Co Ltd.</li>
-                            <li> Holds B Tech (Chemical Engineering) from IIT – Madras</li>
-                        </ul>
+                            <ul class=" ">
+                                <li> Mr. Chandrasekaran, a career banker, with an illustrious career spanning over three and a half decades at SBI.</li>
+                                <li> Retired as Chief General Manager in September 2011.</li>
+                                <li> Served as SBI’s nominee director on the Board of SIDBI for 6 years, from June 2012 till June 2018.</li>
+                                <li> Involved in areas of Mid Corporate, SME lending, and Treasury during his career.</li>
+                                <li> Headed the SME lending unit from 2002 to 2007, positioning SBI as a thought leader in SME.</li>
+                                <li> Member of various RBI technical committees on the money and bond markets.</li>
+                                <li> Part of the RBI-appointed Chakravarty Committee on restructuring and rehabilitation of distressed SME units, with recommendations accepted and implemented by RBI.</li>
+                                <li> Currently serving as an Independent Director in Mahaveer Finance India Ltd and GrowXCD Finance Pvt Ltd.,</li>
+                                <li> Holds the position of a Nominee Director at SBI CAP Trustee Co Ltd.</li>
+                                <li> Holds B Tech (Chemical Engineering) from IIT – Madras</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -285,15 +293,15 @@ include './layout/mobileNav.php';
         <div class="modal-content rounded-3">
 
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5">
                         <div class="row d-flex justify-content-center  pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_4.png" class=" img-fluid " />
                             <h2 class="ps-4 fs-4">Ms. V.G.Aravindanayagi</h2>
-                            <p class="ps-4"> Director</p>
+                            <p class="ps-4 mb-md-auto mb-1"> Director</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails  text-start">
 
                             <ul class=" ">
@@ -320,15 +328,15 @@ include './layout/mobileNav.php';
         <div class="modal-content rounded-3">
 
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center pop_up_img ">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_5.png" class=" img-fluid " />
                             <h2 class="ps-4 fs-4">Mr. Saravanamuthu muralidharan</h2>
-                            <p class="ps-4"> Director</p>
+                            <p class="ps-4 mb-md-auto mb-1"> Director</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails  text-start">
 
                             <ul class=" ">
@@ -352,15 +360,15 @@ include './layout/mobileNav.php';
         <div class="modal-content rounded-3">
 
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3 " style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3 " style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center  pop_up_img">
                             <img class="popup_img" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_6.png" class=" img-fluid " />
                             <h2 class="ps-4 fs-4">Mr. Hariharan Mahalingam</h2>
-                            <p class="ps-4"> Director</p>
+                            <p class="ps-4 mb-md-auto mb-1"> Director</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails   text-start">
 
                             <ul class=" ">
@@ -388,15 +396,15 @@ include './layout/mobileNav.php';
         <div class="modal-content rounded-3">
 
             <div class="modal-body p-0 rounded-3">
-                <div class="people-detail-page2 text-center d-flex justify-content-start align-items-center py-5 pe-3" style="border-radius: 20px;">
-                    <div class="col-5">
+                <div class="people-detail-page2 text-center d-flex flex-lg-row flex-column justify-content-start align-items-center py-md-5 py-3 pe-3" style="border-radius: 20px;">
+                    <div class="col-lg-5 col-12">
                         <div class="row d-flex justify-content-center pop_up_img ">
                             <img class="popup_img" style="transform: scaleX(-1);" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/dir_img_7.png" class=" img-fluid " />
                             <h2 class="ps-4 fs-4">Mr. Paul vaseekaran</h2>
-                            <p class="ps-4"> Director</p>
+                            <p class="ps-4 mb-md-auto mb-1"> Director</p>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <div class="personDetails   text-start">
 
                             <ul class=" ">
