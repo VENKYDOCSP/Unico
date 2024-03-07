@@ -11,11 +11,11 @@ $active = 6;
 include './layout/header.php';
 include './layout/mobileNav.php';
 ?>
-<section class="mb-5 pb-5">
+<section class="mb-1 mb-md-5 pb-1 pb-md-5">
     <div class="container mt-md-5 pt-md-5 ">
         <div class="row pb-2 d-flex career_container justify-content-around align-items-center px-md-5">
             <div class="col-12 col-md-6 career_content">
-                <h1 class="" data-aos="fade-right" data-aos-duration="600">Careers</h1>
+                <h1 class=" pt-3 pt-md-0" data-aos="fade-right" data-aos-duration="600">Careers</h1>
                 <p class="my-3" data-aos="fade-right" data-aos-duration="800">Become a part of our team and shape the future of home financing. At Unico, we are committed to empowering individuals to flourish in a dynamic and fulfilling atmosphere. Explore enticing career prospects where you can create a significant impact, advance in your professional journey, and play a role in assisting others in realizing their dreams of homeownership.</p>
                 <!-- <a href="#career_form"> <button class="car_aply_btn py-3 px-5 ">Apply now</button></a> -->
             </div>
@@ -94,12 +94,12 @@ include './layout/mobileNav.php';
     </div>
     <div class="team_contain ">
         <div class="container  mt-md-5 pt-md-5 mx-auto pb-5 ">
-            <h2 class="text-center title_team" data-aos="fade-up" data-aos-duration="600">Want to join our Team</h2>
-            <h3 class="text-center perfect_job" data-aos="fade-up" data-aos-duration="800">Find the <span>Perfect Jobs</span></h3>
+            <h2 class="text-center title_team pt-3 pt-md-0" data-aos="fade-up" data-aos-duration="600">Want to join our Team</h2>
+            <h3 class="text-center perfect_job pb-2 pb-md-0" data-aos="fade-up" data-aos-duration="800">Find the <span>Perfect Jobs</span></h3>
             <div class="row    mx-auto d-flex justify-content-around align-items-center mt-md-5">
                 <div class="col-12 col-md-4 " data-aos="zoom-in" data-aos-duration="600">
                     <div class=" team_role  py-4  px-3">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between ">
                             <div class="mx-2">
                                 <h2 class="titlerole ">Role </h2>
                             </div>
@@ -263,13 +263,13 @@ include './layout/mobileNav.php';
         <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/BackgroundImageforForm.png" alt="">
     </div>
 </div> -->
-<div class="position-relative container my-5 pt-5">
+<div class="position-relative container my-5 pt-1 pt-md-5">
     <div class=" d-md-block d-none p-0 m-0">
         <!-- <div class=" m-0 p-0"> -->
-        <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/BackgroundImageforForm.png" alt="banner" class="img-fluid w-100">
+        <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/BackgroundImageforForm.png" alt="banner" class="img-fluid w-100">
         <!-- </div> -->
     </div>
-    <div class=" mx-auto mt-md-0 d-flex flex-column justify-content-center align-items-center pb-3 career_form     ">
+    <div class=" mx-auto mt-md-0 d-flex flex-column justify-content-center align-items-center pb-0 pb-md-3 career_form     ">
         <div class=" mt-2 mb-0">
             <?php if (isset($_GET["sent"]) && $_GET["sent"] == "1") { ?>
                 <div class="text-center d-flex align-items-center justify-content-center">
@@ -290,7 +290,42 @@ include './layout/mobileNav.php';
                 </script>
             <?php } ?>
         </div>
-        <form class="care_form  px-md-4 py-md-4  " action="formdb.php" method="post" autocomplete="off" id="career_form" data-aos="fade-right" data-aos-duration="700">
+        <form class="care_form d-none d-md-block px-md-4 py-md-4  " action="formdb.php" method="post" autocomplete="off" id="career_form" data-aos="fade-right" data-aos-duration="700">
+            <h2 class="mb-3 text-center text-white  your_grouth py-3"> Begin your journey of growth here
+            </h2>
+            <div class="mb-4 borderForInput m">
+                <input class="form-control border-0" type="text" placeholder="Full name" name="name" aria-label="default input example" required oninput="validateText(event)">
+            </div>
+            <div class="mb-4 borderForInput">
+                <input type="tel" class="form-control border-0" id="floatingInput" name="number" placeholder="Phone number" required oninput="validateNumber(event)">
+            </div>
+            <div class="mb-4 borderForInput">
+                <input type="email" class="form-control border-0" id="floatingInput" name="email" placeholder="Email ID" required>
+            </div>
+            <div class="mb-4 borderForInput">
+                <input type="tel" class="form-control border-0" id="floatingInput" name="pincode" placeholder="Skills *" required oninput="validatePincode(event)">
+            </div>
+            <div class="mb-4 borderForInput">
+                <select class="form-select  floatingInput border-0" aria-label="Default select example" name="product" required>
+                    <option selected class="">Experience *</option>
+                    <option value="">select</option>
+                </select>
+            </div>
+            <div class="container text-start p-0">
+                <label for="file-input" class="custom-file-upload">
+                    <img class="img-filud fil-img" width="300px" style="cursor: pointer;" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/UploadFile.svg" alt="Background Image">
+                </label>
+                <p class=" " style="padding-left: 20px; color: rgb(246, 82, 82);" id="file-name"> </p>
+                <input id="file-input" type="file" accept=".pdf,.doc,.docx" required="" name="file" title="Upload" class="d-none" onchange="handleFileUpload()">
+            </div>
+            <div class="pt-2 ">
+                <button class="car_btn text-light w-100 fs-5 py-2 " type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class=""  id="career_form">
+    <form class=" d-block d-md-none  px-md-4 py-md-4  border rounded p-4 " action="formdb.php" method="post" autocomplete="off" data-aos="fade-right" data-aos-duration="700">
             <h2 class="mb-3 text-center text-white  your_grouth py-3"> Begin your journey of growth here
             </h2>
             <div class="mb-4 borderForInput m">

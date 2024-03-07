@@ -258,4 +258,24 @@
   .borderForInput input {
     background-color: #fff !important;
   }
+  
+
+  .servicetitle p {
+ 
+    font-size: 35px;
+  
+}
+
+.sell_product {
+ 
+  font-size: 34px;
+ 
+  line-height: 48px;
+ 
+}
+
+/* .servbox{
+  height: 40% !important;
+} */
+
 }
