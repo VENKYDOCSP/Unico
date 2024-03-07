@@ -544,7 +544,7 @@
 <script>
     var splide = new Splide('.splide', {
         direction: 'ttb',
-        height: '70vh',
+        height: '60vh',
         wheel: true,
         focus: 'center',
         arrows: false,
