@@ -26,7 +26,7 @@ include './layout/mobileNav.php';
         </div>
     </div>
     <div class="container work_contain mt-md-5 pt-3 mobileResponsiveHeading  mx-auto pb-5 ">
-        <h2 class="text-center title_team" data-aos="zoom-in" data-aos-duration="700">Why Choose Us?</h2>
+        <h2 class="text-center title_team mobileHeadingWhyUs" data-aos="zoom-in" data-aos-duration="700">Why Choose Us?</h2>
         <div class="row  px-md-5 mx-md-1  mt-3 mx-auto d-flex justify-content-around align-items-center mt-md-5 ">
             <div class="col-12 col-md-6 work_with px-3   " data-aos="fade-right">
                 <div class="d-flex justify-content-center align-items-start ">

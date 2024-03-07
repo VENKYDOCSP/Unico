@@ -1337,4 +1337,27 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   .product_apply_now {
     font-size: 14px !important;
   }
+  .splide_contain p:nth-child(2) {
+    font-size: 8px;
+  }
+  .sideblogcontent {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .y_chose_unico {
+    font-size: 30px;
+  }
+  .our_prodct {
+    font-size: 30px;
+  }
+  .v_listn {
+    font-size: 14px;
+  }
+  .product_apply_now {
+    font-size: 14px !important;
+  }
+
+  .get_call_bk_cont {
+    margin-top: 0px;
+  }
 }
