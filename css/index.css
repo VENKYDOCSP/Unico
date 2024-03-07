@@ -1294,4 +1294,8 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   .logoForFooter {
     width: 50%;
   }
+
+  .get_call_bk_cont {
+    margin-top: 0px;
+  }
 }

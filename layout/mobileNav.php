@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light d-block d-lg-none  p-0">
-    <div style="background-color: var(--primary);" class="d-md-flex ">
+    <div style="background-color: #2E52A1" class="d-md-flex ">
         <div class="container-fluid pb-2 d-flex align-items-center justify-content-between col-md-5">
             <a class="navbar-brand links text-start" href="./">
                 <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/UnicoMobileLogo.svg" class="img-fluid " alt=""></a>

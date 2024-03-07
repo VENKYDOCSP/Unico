@@ -165,10 +165,10 @@ include './layout/mobileNav.php'; ?>
     <div class="prod_text_bg mx-2 ">
       <div class="row m-4 justify-content-center align-items-center pt-4 pb-3">
         <div class="col-12 col-md-6">
-          <p class="fs-2 frequently_desc ">Frequently <span class="">Asked Questions</span></p>
+          <p class="fs-2 frequently_desc mb-md-auto mb-2">Frequently <span class="">Asked Questions</span></p>
           <p>Answers to your home financing queries</p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 p-md-auto p-0">
           <!-- <div class="col-10 align-items-center px-3"> -->
           <div class="col-12 col-md-7 mx-auto">
             <div class="    d-flex justify-content-around   bg_cont_tab rounded-pill align-items-center  border border-dark  ">
@@ -184,8 +184,8 @@ include './layout/mobileNav.php'; ?>
     <div class=""></div>
     <!-- show selectd data rows -->
     <div class="Variable" id="General">
-      <div class="row justify-content-between px-1 px-md-4 ">
-        <div class="col-12 col-md-6 pb-4">
+      <div class="row justify-content-between px-4 ">
+        <div class="col-md-6 pb-4">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingOne">
@@ -195,7 +195,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <p>Your Home Loan eligibility is decided based on your repayment capacity and up to 90% of the property value. Your repayment capacity depends on income of all applicants, Age of the primary applicant.</p>
+                  <p>The determination of your Home Loan eligibility relies on your repayment capacity, extending up to 90% of the property value. Repayment capacity is influenced by the combined income of all applicants and the age of the primary applicant.</p>
                 </div>
               </div>
             </div>
@@ -207,7 +207,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Yes, you can also avail of a loan for Purchase of a home, Construction of a home, Home repairs, Home improvements, Home extension, Plot purchase + home construction.
+                  Certainly, you can also apply for a loan to acquire a home, construct a home, address home repairs, undertake home improvements, extend your existing home, or for the combined purpose of plot purchase and home construction.
                 </div>
               </div>
             </div>
@@ -225,7 +225,7 @@ include './layout/mobileNav.php'; ?>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 pb-4">
+        <div class="col-md-6 pb-4">
           <div class="accordion" id="accordionExample1">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingO">
@@ -235,7 +235,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
-                  <p>The tenure of your home loan ranges for up to 30 years. The term, however, does not extend beyond the retirement age or 60 years, whichever is earlier.</p>
+                  <p>The tenure of your home loan ranges for up to 20 years. The term, however, does not extend beyond the retirement age or 60 years, whichever is earlier.</p>
                 </div>
               </div>
             </div>
@@ -251,18 +251,6 @@ include './layout/mobileNav.php'; ?>
                 </div>
               </div>
             </div>
-            <!-- <div class="accordion-item acc_itm">
-              <h2 class="accordion-header" id="headingTh">
-                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTh" aria-expanded="false" aria-controls="collapseTh">
-                  Soman Vein Baid ?
-                </button>
-              </h2>
-              <div id="collapseTh" class="accordion-collapse collapse" aria-labelledby="headingTh" data-bs-parent="#accordionExample1">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -353,7 +341,7 @@ include './layout/mobileNav.php'; ?>
     </div> -->
     <div class="Variable" id="Loans" style="display:none">
       <div div class="row justify-content-between px-4 ">
-        <div class="col-12 col-md-6 pb-4">
+        <div class="col-md-6 col-12 pb-4">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingOne">
@@ -363,7 +351,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  You can apply for a Home Loan at any time once you have decided to purchase or construct a property, even if you have not selected the property or the construction has not commenced. </div>
+                  You can initiate a Home Loan application at any point after deciding to purchase or construct a property, even before finalizing the property or commencing construction. </div>
               </div>
             </div>
             <div class="accordion-item acc_itm my-3">
@@ -374,7 +362,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Yes, resident Indians are eligible for tax benefits on both the principal and the interest of a home loan under the Income Tax Act. Please consult your tax advisor for details. </div>
+                  Certainly, resident Indians qualify for tax advantages on both the principal and interest components of a home loan as per the Income Tax Act. It is recommended to seek advice from your tax advisor for specific details. </div>
               </div>
             </div>
             <div class="accordion-item acc_itm">
@@ -385,12 +373,12 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Security of the loan would generally be security interest on the property being financed by us and / or any other collateral / interim security as may be required by us. </div>
+                  The security for the loan usually includes a legal interest in the property financed by us and/or any extra collateral or temporary security deemed necessary by us. </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 pb-4">
+        <div class="col-md-6 col-12 pb-4">
           <div class="accordion" id="accordionExample1">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingO">
@@ -400,7 +388,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
-                  <p> Repayment of the principal commences from the month following the month in which you avail full disbursement of your loan. Pending final disbursement, you pay interest on the portion of the loan disbursed
+                  <p>The repayment of the principal starts from the month subsequent to the month in which you receive the complete disbursement of your loan. During the interim disbursement period, you are required to pay interest on the disbursed portion of the loan.
                 </div>
                 </p>
               </div>
@@ -413,7 +401,7 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample1">
                 <div class="accordion-body fw-normal">
-                  Encumbrance on a property refers to claims or charges on the property due to liabilities such as unpaid loans and bills </div>
+                  Encumbrance refers to claims, charges, or liabilities on a property, typically arising from factors like unpaid loans, outstanding bills, or other financial obligations. </div>
               </div>
             </div>
             <div class="accordion-item acc_itm">
@@ -423,13 +411,14 @@ include './layout/mobileNav.php'; ?>
               </h2>
               <div id="collapseTh" class="accordion-collapse collapse" aria-labelledby="headingTh" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
-                  You are required to pay 10-25% of the total property cost as ‘own contribution depending upon the loan amount. 75 to 90% of the property cost is what can be availed as a housing loan. </div>
+                  You need to provide an 'own contribution' ranging from 10-25% of the total property cost, depending on the loan amount. A housing loan can cover 75 to 90% of the property cost. </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 </div>
 <div class="frq_ask_down mb-5"></div>

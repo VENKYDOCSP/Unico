@@ -242,11 +242,15 @@ include './layout/mobileNav.php'; ?>
 
     </div>
   </div>
-  <div class="row p-o m-0 justify-content-center ">
+  <div class="row p-o m-0 justify-content-center d-md-block d-none ">
     <div class="col-12 p-0 m-0">
       <div class="" id="animationWindow" style="width: 100%; height: 100vh">
       </div>
     </div>
+  </div>
+  <div class="row p-o m-0 justify-content-center d-md-none d-block ">
+
+    <lottie-player src="./assets/mobileLottie.json" background="transparent" speed="1" direction="1" mode="normal" loop autoplay></lottie-player>
   </div>
 
   <!-- testing gf -->
@@ -410,20 +414,20 @@ include './layout/mobileNav.php'; ?>
     <div class="get_cal_back_bk " style="z-index:1">
       <div class="container  py-5">
         <div class="row">
-          <div class="col-6 pt-5">
+          <div class="col-md-6 col-12 pt-5  ">
             <!-- <p><img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/getcallbk_img.png" alt=""></p> -->
           </div>
-          <div class="col-6 align-self-end" data-aos="fade-left" data-aos-duration="1000">
+          <div class="col-md-6 col-12 align-self-end" data-aos="fade-left" data-aos-duration="1000">
             <div class="get_call_bk_cont  rounded-4 py-3 ps-5 pe-5">
               <p class="fs-2 text-white fw-semibold mt-5 get_hed mb-1">Get a Call Back</p>
               <p class="   fw-semibold  " style="color: #514C4C;">We're available 24/7. Connect with us directly, anytime!</p>
               <div class="d-flex justify-content-between align-items-center  mt-5">
-                <input class="get_call_bk_inputs ps-1" placeholder="Your name" type="text" name="" id="">
-                <input class="get_call_bk_inputs ps-1" placeholder="Phone Number" type="text" name="" id="">
+                <input class="get_call_bk_inputs ps-1  col-md-5 col-6" placeholder="Your name" type="text" name="" id="">
+                <input class="get_call_bk_inputs ps-1 col-md-5 col-6" placeholder="Phone Number" type="text" name="" id="">
               </div>
               <div class="d-flex justify-content-between align-items-center mt-5">
-                <input class="get_call_bk_inputs ps-1" placeholder="Mail Id" type="email" name="" id="">
-                <input class="get_call_bk_inputs ps-1" placeholder="Pincode" type="Pincode" name="" id="">
+                <input class="get_call_bk_inputs ps-1 col-md-5 col-6" placeholder="Mail Id" type="email" name="" id="">
+                <input class="get_call_bk_inputs ps-1 col-md-5 col-6" placeholder="Pincode" type="Pincode" name="" id="">
               </div>
               <div class="mt-3 pb-4"><button class="py-3   get_cal_bk_btn mt-3 fs-5 fw-semibold rounded-5 ">Submit</button></div>
             </div>
@@ -439,15 +443,15 @@ include './layout/mobileNav.php'; ?>
     <div class="container  p-3 bg-white rounded-5  shadow   ">
       <div class="bg_text_cont mx-2">
         <div class="row m-4 justify-content-center align-items-center pt-4 pb-3">
-          <div class="col-6">
-            <p class="fs-2 frequently_p " data-aos="fade-right" data-aos-duration="1000">Frequently <span class=""> Asked Questions</span></p>
+          <div class="col-12 col-md-6">
+            <p class="fs-2 frequently_p mb-auto mb-0" data-aos="fade-right" data-aos-duration="1000">Frequently <span class=""> Asked Questions</span></p>
             <p data-aos="fade-right" data-aos-duration="1000">Answers to your home financing queries</p>
           </div>
-          <div class="col-6 ">
+          <div class="col-12 col-md-6 p-md-auto p-0 ">
             <!-- <div class="col-10 align-items-center px-3"> -->
-            <div class="col-7 mx-auto">
+            <div class="col-12 col-md-7 mx-auto">
               <div class="    d-flex justify-content-around   bg_cont_tab rounded-pill align-items-center  border border-dark  ">
-                <p class=" px-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  " onclick="opendiv('General')">General</p>
+                <p class=" px-4 px-md-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  " onclick="opendiv('General')">General</p>
                 <!-- <p class="bg_select_nilt  bg-hover DivHighlight px-5  mt-1 ms-2   fs-5 rounded-pill  my-1 " onclick="opendiv('Finance')">Finance </p> -->
                 <p class="bg_select_nilt  bg-hover DivHighlight  px-5  mt-1 ms-2   fs-5 rounded-pill me-2  my-1" onclick="opendiv('Loans')">Loans</p>
               </div>
@@ -460,7 +464,7 @@ include './layout/mobileNav.php'; ?>
       <!-- show selectd data rows -->
       <div class="Variable" id="General">
         <div class="row justify-content-between px-4 ">
-          <div class="col-6 pb-4">
+          <div class="col-md-6 pb-4">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingOne">
@@ -500,7 +504,7 @@ include './layout/mobileNav.php'; ?>
               </div>
             </div>
           </div>
-          <div class="col-6 pb-4">
+          <div class="col-md-6 pb-4">
             <div class="accordion" id="accordionExample1">
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingO">
@@ -532,7 +536,7 @@ include './layout/mobileNav.php'; ?>
       </div>
       <div class="Variable" id="Loans" style="display:none">
         <div div class="row justify-content-between px-4 ">
-          <div class="col-6 pb-4">
+          <div class="col-md-6 col-12 pb-4">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingOne">
@@ -569,7 +573,7 @@ include './layout/mobileNav.php'; ?>
               </div>
             </div>
           </div>
-          <div class="col-6 pb-4">
+          <div class="col-md-6 col-12 pb-4">
             <div class="accordion" id="accordionExample1">
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingO">
@@ -609,6 +613,7 @@ include './layout/mobileNav.php'; ?>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
