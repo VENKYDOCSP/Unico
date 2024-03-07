@@ -1,0 +1,436 @@
+<?php
+$style = '
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/mobilNavbar.css">
+<link rel="stylesheet" href="css/product.css">
+';
+$title = "Products";
+$active = 4;
+include './layout/header.php';
+// include './layout/mobileHeader.php';
+include './layout/mobileNav.php'; ?>
+<div class="position-relative container-fluid p-0 m-0 " id="banner" id="top">
+  <div class=" d-md-block d-none p-0 m-0">
+    <!-- <div class=" m-0 p-0"> -->
+    <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/pro_baner.png" alt="banner" class="img-fluid w-100">
+    <!-- </div> -->
+  </div>
+  <div class=" d-md-none d-block">
+    <div class="m-0 p-0 ">
+      <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/HomeBannerForUnicoMobile.jpg" alt="banner" class="img-fluid w-100">
+    </div>
+  </div>
+  <div class=" mx-auto mt-md-0 d-flex flex-column justify-content-center align-items-center pb-3   formDetails" data-aos="zoom-in" data-aos-duration="600">
+    <div class=" mt-2 mb-0">
+      <?php if (isset($_GET["sent"]) && $_GET["sent"] == "1") { ?>
+        <div class="text-center d-flex align-items-center justify-content-center">
+          <div class="alert alert-success alert-successss" id="malert" role="alert">
+            Submitted successfully ✅
+          </div>
+        </div>
+        <script>
+          // JavaScript to hide the success message after 10 seconds
+          document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+              var malert = document.getElementById("malert");
+              if (malert) {
+                malert.style.display = "none";
+              }
+            }, 5000);
+          });
+        </script>
+      <?php } ?>
+    </div>
+    <h2 class="mb-3 text-center text-white  getstart"> Apply Now - Achieve Dreams
+    </h2>
+    <form class="unicoForm  px-md-4 py-md-5 " action="formdb.php" method="post" autocomplete="off">
+      <div class="mb-4 borderForInput m">
+        <input class="form-control border-0" type="text" placeholder="Full Name" name="name" aria-label="default input example" required oninput="validateText(event)">
+      </div>
+      <div class="mb-4 borderForInput">
+        <input type="tel" class="form-control border-0" id="floatingInput" name="number" placeholder="Phone Number" required oninput="validateNumber(event)">
+      </div>
+      <div class="mb-4 borderForInput">
+        <input type="email" class="form-control border-0" id="floatingInput" name="email" placeholder="Email ID" required>
+      </div>
+      <div class="mb-4 borderForInput">
+        <input type="tel" class="form-control border-0" id="floatingInput" name="pincode" placeholder="Pincode" required oninput="validatePincode(event)">
+      </div>
+      <div class="mb-4 borderForInput">
+        <select class="form-select  floatingInput border-0" aria-label="Default select example" name="product" required>
+          <option selected class="">Select Your Loan</option>
+          <option value="New Flat/ Independent House Purchase Loan">New Flat/ Independent House - Purchase Loan</option>
+          <option value="New Commercial Property- Purchase Loan">New Commercial Property - Purchase Loan</option>
+          <option value="Self Construction Loan">Self Construction Loan</option>
+          <option value="Home Extension Loan">Home Extension Loan</option>
+          <option value="Home Renovation Loan">Home Renovation Loan</option>
+          <option value="Flat/Independent House- Resale Purchase Loan">Flat/ Independent House - Resale Purchase Loan </option>
+          <option value="Resale Commercial Property- Purchase Loan">Resale Commercial Property - Purchase Loan</option>
+          <option value="Plot Plus Construction Loan">Plot Plus Construction Loan</option>
+          <option value="Home Loan Topup Loan">Home Loan - Topup Loan</option>
+          <option value="Home Loan- Balance Transfer">Home Loan - Balance Transfer</option>
+          <option value="Loan Against Property-Residential">Loan Against Property - Residential</option>
+          <option value="Loan Against Property-Topup">Loan Against Property - Topup</option>
+          <option value="Loan Against Property-Balance Transfer">Loan Against Property - Balance Transfer</option>
+          <option value="Loan Against Property-Commerical">Loan Against Property - Commerical</option>
+        </select>
+      </div>
+      <div class="pt-2 ">
+        <button class="btn text-light w-100 fs-5 " type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="container-fluid py-md-5" style="background-color: #E7E7E7;">
+  <div class="row pt-5">
+    <div class="col-12 col-md-5 servicetitle p-md-5 ">
+      <h1 class="ps-5" data-aos="fade-right" data-aos-duration="600">OUR SERVICES</h1>
+      <p class="  ps-5" data-aos="fade-right" data-aos-duration="800">Custom-made services to meet your needs
+      </p>
+    </div>
+    <div class="col-12 col-md-7 servicecol  ">
+      <div class="row services mx-4  ">
+        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="600">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service1.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Customized services delivered at your doorsteps</h2>
+        </div>
+        <div class="servbox m-md-4   " data-aos="zoom-in" data-aos-duration="800">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service3.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Simple documentation </h2>
+        </div>
+        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1000">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service4.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Instant loan approval</h2>
+        </div>
+        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1200">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service5.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">No ITR</h2>
+        </div>
+        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1400">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service6.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Fast loan disbursement</h2>
+        </div>
+        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1600">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service7.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Support in getting government Documents / legal records</h2>
+        </div>
+        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1800">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service8.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Loans with long repayment period</h2>
+        </div>
+        <div class="servbox m-md-4 ">
+          <p class="d-flex justify-content-center ">
+            <img class="img-fluid pt-md-5" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service9.svg" alt="">
+          </p>
+          <h2 class="pt-md-2 pb-md-5">Affordable interest rates</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pt-4 " style="background-color: #E7E7E7;">
+  <div class="container    justify-content-center pt-5">
+    <div class="row    justify-content-center align-items-center ">
+      <div class="col-12 col-md-6        "><img class="img-fluid" data-aos="fade-right" data-aos-duration="1000" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/abtpro.png" alt=""></div>
+      <div class="col-12 col-md-4    ps-2 my-auto ">
+        <p class="topvec">
+          <img class="img-fluid text-start" data-aos="fade-down" data-aos-duration="1000" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Vector+30+(1).svg" alt="">
+        </p>
+        <h2 class="sell_product ps-3 mb-md-0 ms-2 " data-aos="fade-left" data-aos-duration="1000">Improve your living space with Home Renovation Loan!</h2>
+        <p class=" fw-semibold sellprodes pe-md-5 ps-4 py-md-2 mt-2" data-aos="fade-left" data-aos-duration="1000">Enhance your living experience while adding equity to your property, creating a lasting return on your investment. </p>
+        <div class=" ps-md-2 ">
+          <a href="#banner"> <button class=" ms-md-3   fs-5 sellbtn" data-aos="fade-left" data-aos-duration="1000">Apply for loan</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="frquently_const  py-5  mt-4" data-aos="fade-up" data-aos-duration="600">
+  <div class="container  p-3 bg-white rounded-5  shadow   ">
+    <div class="prod_text_bg mx-2 ">
+      <div class="row m-4 justify-content-center align-items-center pt-4 pb-3">
+        <div class="col-6">
+          <p class="fs-2 frequently_desc ">Frequently <span class="">Asked Questions</span></p>
+          <p>Answers to your home financing queries</p>
+        </div>
+        <div class="col-6 ">
+          <!-- <div class="col-10 align-items-center px-3"> -->
+          <div class="col-7 mx-auto">
+            <div class="    d-flex justify-content-around   bg_cont_tab rounded-pill align-items-center  border border-dark  ">
+              <p class=" px-5  mt-1 ms-2   fs-5 rounded-pill bg_selectt  bg-hover DivHighlight default my-auto  "   onclick="opendiv('General')">General</p>
+              <!-- <p class="bg_select_nilt  bg-hover DivHighlight px-5  mt-1 ms-2   fs-5 rounded-pill  my-1 " onclick="opendiv('Finance')">Finance </p> -->
+              <p class="bg_select_nilt  bg-hover DivHighlight  px-5  mt-1 ms-2   fs-5 rounded-pill me-2  my-1"   onclick="opendiv('Loans')">Loans</p>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <div class=""></div>
+    <!-- show selectd data rows -->
+    <div class="Variable" id="General">
+      <div class="row justify-content-between px-4 ">
+        <div class="col-6 pb-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How will Unico decide my home loan eligibility?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Your Home Loan eligibility is decided based on your repayment capacity and up to 90% of the property value. Your repayment capacity depends on income of all applicants, Age of the primary applicant.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm my-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Can I also avail a loan for home improvements and home extension?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, you can also avail of a loan for Purchase of a home, Construction of a home, Home repairs, Home improvements, Home extension, Plot purchase + home construction.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  When should I submit my documents?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  You will have to submit the documents along with your application form.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 pb-4">
+          <div class="accordion" id="accordionExample1">
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingO">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseO" aria-expanded="true" aria-controls="collapseO">
+                  What are tenure options?
+                </button>
+              </h2>
+              <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  <p>The tenure of your home loan ranges for up to 30 years. The term, however, does not extend beyond the retirement age or 60 years, whichever is earlier.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm my-3">
+              <h2 class="accordion-header" id="headingT">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="false" aria-controls="collapseT">
+                  Can I get approval for my home loan without finalising on my property?
+                </button>
+              </h2>
+              <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  Yes, based on your income eligibility, we can offer you PNI (Property Not Identified) Sanction Letter for your home loan. You can identify the property you need to buy based on this document. Kindly speak to your sales manager to know more.
+                </div>
+              </div>
+            </div>
+            <!-- <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingTh">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTh" aria-expanded="false" aria-controls="collapseTh">
+                  Soman Vein Baid ?
+                </button>
+              </h2>
+              <div id="collapseTh" class="accordion-collapse collapse" aria-labelledby="headingTh" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="Variable" id="Finance" style="display:none">
+      <div class="row justify-content-between px-4 ">
+        <div class="col-6 pb-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Unico Home Finance in Loreum ? finance
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet consectetur. Risus amet viverra justo blandit amet et sem quis. In mattis </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm my-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Unico Home Finance in Loreum ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Soman Vein Baid ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 pb-4">
+          <div class="accordion" id="accordionExample1">
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingO">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseO" aria-expanded="true" aria-controls="collapseO">
+                  Unico Home Finance in Loreum ? finance
+                </button>
+              </h2>
+              <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet consectetur. Risus amet viverra justo blandit amet et sem quis. In mattis </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm my-3">
+              <h2 class="accordion-header" id="headingT">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="false" aria-controls="collapseT">
+                  Unico Home Finance in Loreum ?
+                </button>
+              </h2>
+              <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingTh">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTh" aria-expanded="false" aria-controls="collapseTh">
+                  Soman Vein Baid ?
+                </button>
+              </h2>
+              <div id="collapseTh" class="accordion-collapse collapse" aria-labelledby="headingTh" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="Variable" id="Loans" style="display:none">
+      <div div class="row justify-content-between px-4 ">
+        <div class="col-6 pb-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  When can I make a home loan application?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  You can apply for a Home Loan at any time once you have decided to purchase or construct a property, even if you have not selected the property or the construction has not commenced. </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm my-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Are there any home loan tax benefits I can avail?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, resident Indians are eligible for tax benefits on both the principal and the interest of a home loan under the Income Tax Act. Please consult your tax advisor for details. </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What security will I have to provide to avail a home loan?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Security of the loan would generally be security interest on the property being financed by us and / or any other collateral / interim security as may be required by us. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 pb-4">
+          <div class="accordion" id="accordionExample1">
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingO">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseO" aria-expanded="true" aria-controls="collapseO">
+                  When do I start repaying the principal amount?
+                </button>
+              </h2>
+              <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  <p> Repayment of the principal commences from the month following the month in which you avail full disbursement of your loan. Pending final disbursement, you pay interest on the portion of the loan disbursed
+                </div>
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm my-3">
+              <h2 class="accordion-header" id="headingT">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="false" aria-controls="collapseT">
+                  What does encumbrance refer to?
+                </button>
+              </h2>
+              <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample1">
+                <div class="accordion-body fw-normal">
+                  Encumbrance on a property refers to claims or charges on the property due to liabilities such as unpaid loans and bills </div>
+              </div>
+            </div>
+            <div class="accordion-item acc_itm">
+              <h2 class="accordion-header" id="headingTh">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTh" aria-expanded="false" aria-controls="collapseTh">
+                  What is the maximum home loan that I can obtain? </button>
+              </h2>
+              <div id="collapseTh" class="accordion-collapse collapse" aria-labelledby="headingTh" data-bs-parent="#accordionExample1">
+                <div class="accordion-body">
+                  You are required to pay 10-25% of the total property cost as ‘own contribution depending upon the loan amount. 75 to 90% of the property cost is what can be availed as a housing loan. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="frq_ask_down mb-5"></div>
+<?php include './layout/footer.php'; ?>

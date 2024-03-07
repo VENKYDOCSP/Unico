@@ -1,0 +1,48 @@
+.contact_detail {
+    background: #FFF2DC;
+}
+
+.contact_contain {
+    border-radius: 10px;
+    background: #FFFBF4;
+    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+}
+
+.infocont {
+    color: #252525;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.infodesc {
+    color: #6B6B6B;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttonForContactUs {
+    border-radius: 5px;
+    background: #2E52A1;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    border: none;
+}
+
+.form-control {
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    background-color: transparent !important;
+    padding-bottom: 20px;
+    border-radius: 0px;
+}
+
+ul {
+    list-style-type: none;
+}

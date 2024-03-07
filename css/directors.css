@@ -1,0 +1,118 @@
+.dirtitle {
+    border-radius: 0px 0px 30px 30px;
+    background: #DFF1FF;
+    margin-bottom: 50px;
+}
+
+
+
+.dirtitle span {
+    color: #626D76;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.197%;
+}
+
+.dirtitle h1 {
+    color: #626D76;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 108.197%;
+    /* 51.934px */
+}
+
+.directorbg {
+    /* border-radius: 33px; */
+    /* background: #DFF1FF; */
+    /* height: 290px !important; */
+    display: flex;
+    flex-flow: column;
+    /* justify-content: flex-end !important; */
+    /* border-radius: 0px 60px 0px 60px !important; */
+}
+
+.align_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+}
+
+
+
+
+
+.directorbg h3 {
+    color: #425A6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.197%;
+    /* 31.377px */
+}
+
+.directorbg h5 {
+    color: #494949;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.197%;
+    /* 19.475px */
+
+}
+
+
+.directorbg p:first-of-type {
+    display: none;
+}
+
+
+
+.directorbg button {
+    border-radius: 20px;
+    background: #7A8995;
+    color: #ffffff;
+    text-align: justify;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    width: 98px;
+    height: 24px;
+    margin-top: 6px;
+    text-align: center;
+    border: none;
+
+    z-index: 1 !important;
+
+}
+
+.directborder {
+    /* border-radius: 33px;
+    border: 0.5px solid #000; */
+}
+
+.direcimg {
+    /* position: relative;
+    top: 15%;
+    z-index: 999 !important; */
+}
+
+.dirminus {
+    /* margin-top: -5%; */
+    /* margin-bottom: -10px */
+
+    margin-top: 40px !important;
+}
+
+.dir_side_gap {
+    margin: 0 120px 0 120px
+}
+ 

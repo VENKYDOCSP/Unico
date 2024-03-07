@@ -1,0 +1,224 @@
+.solutioncontainer {
+  background: #feffca;
+}
+
+.solutionDream h1 {
+  color: #5f5f4e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 108.197%;
+  /* 49.77px */
+}
+
+.solutionDream p {
+  color: #5f5f4e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.solutionDream span {
+  color: #5f5f4e;
+  text-align: justify;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 27px */
+}
+
+.solutionDream > button {
+  border-radius: 20px;
+  background: #8a8169;
+  color: #ffffff;
+  text-align: justify;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: none;
+}
+
+.our_prodctabt span {
+  color: #5f5f4e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 62px;
+  letter-spacing: -1px;
+}
+
+.topvec img {
+  vertical-align: super;
+}
+
+.abtprodes {
+  color: #201717;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  /* 120% */
+}
+
+.productprofile {
+  border-radius: 20px;
+  background: #8a8169;
+  color: #ffffff;
+  text-align: justify;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: none;
+}
+
+.our_prodctabt {
+  color: #5f5f4e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 62px;
+  /* 129.167% */
+  letter-spacing: -1px;
+}
+
+.missionbg {
+  background: #feffe1;
+}
+
+.missionbg > h2 {
+  color: #8c8878;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108.197%;
+  /* 55.18px */
+}
+
+.missionbg > p {
+  color: #5f5f4e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143.594%;
+  /* 25.847px */
+}
+
+.missionimg {
+  background: #ececec;
+}
+
+.missionbg {
+  background: #feffe1;
+}
+
+.visionbg > h2 {
+  color: #8c8878;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Lexend;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108.197%;
+  /* 55.18px */
+}
+
+.visionbg > p {
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143.594%;
+  /* 25.847px */
+}
+
+.visionimg {
+  background: #ececec;
+}
+
+.visionbg {
+  background: #feffe1;
+}
+
+.containersoars {
+  background: #f6f6e5;
+}
+
+.soars {
+  color: #848071;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.soarcont {
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143.594%;
+}
+
+.values h2 {
+  color: #848071;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 108.197%;
+  /* 55.18px */
+  letter-spacing: 30px;
+}
+
+.values p span {
+  font-weight: 800;
+}
+
+.values p {
+  color: #545454;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143.594%;
+  /* 28.719px */
+}
+.our_proddetails {
+  color: #5f5f4e;
+  text-align: justify;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
