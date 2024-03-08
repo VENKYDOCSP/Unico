@@ -68,14 +68,14 @@ include './layout/mobileNav.php';
                 <p class="ps-md-5"> Empowering our stakeholders' lives is our paramount mission, achieved through attentive understanding and collaborative synergy. With a dedicated focus on sensitivity and mutual growth, we aspire to meet their unique needs and aspirations. Our commitment to transparency, integrity, and excellence drives us to create meaningful connections and foster shared success. Together, we embark on a journey of fulfillment, where every interaction is a testament to our unwavering dedication. </p>
             </div>
             <div class="col-12 col-md-6 text-center missionimg p-md-5 order-md-2 order-1 " data-aos="zoom-out-left">
-                <img class="py-md-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/mission.svg" alt="">
+                <img class="" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/VisionGif.gif" alt="">
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row  ">
             <div class="col-12 col-md-6 text-center p-md-5 visionimg " data-aos="zoom-out-right">
-                <img class="py-md-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/vision.svg" alt="">
+                <img class="" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/MissionGIf.gif" alt="">
             </div>
             <div class="col-12 col-md-6 visionbg p-md-5 " data-aos="zoom-out-left">
                 <h2 class="ps-md-5 pt-3 pt-md-5 pb-2 pb-md-1">OUR VISION</h2>
