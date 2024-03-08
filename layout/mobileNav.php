@@ -34,7 +34,7 @@
                             Fit and Proper Criteria of Directors</a></li>
                     <li class="pt-1 pb-2"><a class=" text-dark  fw-bold fs-6" href="https://unicowebsite.s3.ap-south-1.amazonaws.com/Unico-+Fin-+004+-+Related+Party.pdf" target="_blank">
                             Policy on Related Party Transactions</a></li>
-                    <li class="pt-1 pb-2"><a class=" text-dark fw-bold  fs-6" href="https://repcobank.s3.ap-south-1.amazonaws.com/UNICO-SECRETARIAL-004-CORPORATE+GOVERNANCE+POLICY.pdf" target="_blank">
+                    <li class="pt-1 pb-2"><a class=" text-dark fw-bold  fs-6" href="https://unicowebsite.s3.ap-south-1.amazonaws.com/UNICO-SECRETARIAL-004-CORPORATE+GOVERNANCE+POLICY.pdf" target="_blank">
                             Corporate Governance policy</a></li>
                     <li class="pt-1 pb-2"><a class=" text-dark fw-bold  fs-6" href="https://unicowebsite.s3.ap-south-1.amazonaws.com/UNICO+-+FIn+-+002+-+Interest+Rate+Policy.pdf" target="_blank">
                             Interest Rate Policy </a></li>

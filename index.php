@@ -352,10 +352,10 @@ include './layout/mobileNav.php'; ?>
       </section>
     </section>
   </div>
-  <div class="container bg-white d-none" id="nextsection">
+  <div class="container bg-white" id="nextsection">
     <p class="text-center fw-bold  y_chose_unico  py-4 pb-2 " data-aos="fade-up">Plan your dream home <span> with confidence! </span></p>
     <?php include './component/calculator.php' ?>
-    <p class="text-center fw-bold  y_chose_unico py-4 pt-2 mb-0 " data-aos="fade-up">Review from our valued <span>Customers</span></p>
+    <p class="text-center fw-bold d-none  y_chose_unico py-4 pt-2 mb-0 " data-aos="fade-up">Review from our valued <span>Customers</span></p>
   </div>
   <div class="bg-white d-none">
     <div class="happy_customer">
