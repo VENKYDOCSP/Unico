@@ -309,6 +309,12 @@ include './layout/mobileNav.php';
                 <select class="form-select  floatingInput border-0" aria-label="Default select example" name="product" required>
                     <option selected class="">Experience *</option>
                     <option value="">select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6+</option>
                 </select>
             </div>
             <div class="container text-start p-0">

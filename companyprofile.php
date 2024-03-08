@@ -43,7 +43,7 @@ include './layout/mobileNav.php';
                 <p class="our_prodctabt ps-4 ps-md-3 pt-2 mb-md-0 pt-2 "><span class="topvec"> </span>
                     <span class=" "> Where Family Thrives, Love Flourishes - </span> We Nurture Your Home Finance to Sustain the Warmth!
                 </p>
-                <p class="our_proddetails ps-1 ps-md-3 mb-md-0 ">We're here to ease your worries, and accompany you on the journey towards your dream home. Together, let's turn your aspirations into reality.We're here to ease your worries, and accompany you on the journey towards your dream home. Together, let's turn your aspirations into reality.</p>
+                <p class="our_proddetails ps-1 ps-md-3 mb-md-0 ">We're here to ease your worries, and accompany you on the journey towards your dream home. Together, let's turn your aspirations into reality. We're here to ease your worries, and accompany you on the journey towards your dream home. Together, let's turn your aspirations into reality.</p>
                 <!-- <p class="ms-3 fw-semibold abtprodes pe-md-5 ps-md-5 ">Buy Your Dream Home with our Easy Home Loan Process and Fast Approval</p> -->
                 <!-- <div class=" ps-md-2 ">
                     <button class="mx-md-5 ms-md-5 productprofile">Read More</button>
@@ -86,7 +86,7 @@ include './layout/mobileNav.php';
     <div class="container-fluid pt-md-5">
         <div class="row text-center values " data-aos="zoom-in-down">
             <h2 class="py-3 py-md-0">OUR VALUES</h2>
-            <p class="px-md-5 py-md-3 col-12 col-md-8  m-auto">At <span>Unico</span> we embody <span> Sensitivity, Ownership, Agility, Responsibility, and Synergy (SOARS)</span>as the pillars of our value system. Sensitivity shapes our understanding, Ownership fuels accountability, Agility steers us through change, Responsibility anchors our integrity, and Synergy unleashes our collective potential. Together, we soar to new heights!</p>
+            <p class="px-md-5 py-md-3 col-12 col-md-8  m-auto">At <span>Unico</span> we embody <span> Sensitivity, Ownership, Agility, Responsibility, and Synergy (SOARS)</span> as the pillars of our value system. Sensitivity shapes our understanding, Ownership fuels accountability, Agility steers us through change, Responsibility anchors our integrity, and Synergy unleashes our collective potential. Together, we soar to new heights!</p>
             <img class="img-fluid pt-3 pt-md-0" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/valu.png" alt="">
         </div>
     </div>

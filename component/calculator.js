@@ -130,7 +130,7 @@ $(document).ready(function () {
         var data = {
             datasets: [{
                 data: [Number(principal), earningsValue],
-                backgroundColor: ['#506C5F', '#FFFFFF'],
+                backgroundColor: ['#35646b', '#FFFFFF'],
                 cutout: '83%',
             }],
         };
