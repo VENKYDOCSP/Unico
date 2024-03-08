@@ -185,8 +185,8 @@ include './layout/mobileNav.php'; ?>
     <!-- show selectd data rows -->
     <div class="Variable" id="General">
       <div class="row justify-content-between px-4 ">
+        <div class="accordion d-flex flex-md-row flex-column" id="accordionExample">
         <div class="col-md-6 pb-4">
-          <div class="accordion" id="accordionExample">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -223,36 +223,36 @@ include './layout/mobileNav.php'; ?>
                 </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
         <div class="col-md-6 pb-4">
-          <div class="accordion" id="accordionExample1">
+          <!-- <div class="accordion" id="accordionExample1"> -->
             <div class="accordion-item acc_itm">
-              <h2 class="accordion-header" id="headingO">
-                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseO" aria-expanded="true" aria-controls="collapseO">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   What are tenure options?
                 </button>
               </h2>
-              <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
+              <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <p>The tenure of your home loan ranges for up to 20 years. The term, however, does not extend beyond the retirement age or 60 years, whichever is earlier.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item acc_itm my-3">
-              <h2 class="accordion-header" id="headingT">
-                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="false" aria-controls="collapseT">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                   Can I get approval for my home loan without finalising on my property?
                 </button>
               </h2>
-              <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample1">
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   Yes, based on your income eligibility, we can offer you PNI (Property Not Identified) Sanction Letter for your home loan. You can identify the property you need to buy based on this document. Kindly speak to your sales manager to know more.
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          </div>
       </div>
     </div>
     <!-- <div class="Variable" id="Finance" style="display:none">
@@ -341,15 +341,15 @@ include './layout/mobileNav.php'; ?>
     </div> -->
     <div class="Variable" id="Loans" style="display:none">
       <div div class="row justify-content-between px-4 ">
+        <div class="accordion d-flex flex-md-row flex-column" id="accordionExample1">
         <div class="col-md-6 col-12 pb-4">
-          <div class="accordion" id="accordionExample">
             <div class="accordion-item acc_itm">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   When can I make a home loan application?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
                   You can initiate a Home Loan application at any point after deciding to purchase or construct a property, even before finalizing the property or commencing construction. </div>
               </div>
@@ -360,7 +360,7 @@ include './layout/mobileNav.php'; ?>
                   Are there any home loan tax benefits I can avail?
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
                   Certainly, resident Indians qualify for tax advantages on both the principal and interest components of a home loan as per the Income Tax Act. It is recommended to seek advice from your tax advisor for specific details. </div>
               </div>
@@ -371,22 +371,22 @@ include './layout/mobileNav.php'; ?>
                   What security will I have to provide to avail a home loan?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
                   The security for the loan usually includes a legal interest in the property financed by us and/or any extra collateral or temporary security deemed necessary by us. </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
         <div class="col-md-6 col-12 pb-4">
-          <div class="accordion" id="accordionExample1">
+          <!-- <div class="accordion" id="accordionExample1"> -->
             <div class="accordion-item acc_itm">
-              <h2 class="accordion-header" id="headingO">
-                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseO" aria-expanded="true" aria-controls="collapseO">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   When do I start repaying the principal amount?
                 </button>
               </h2>
-              <div id="collapseO" class="accordion-collapse collapse show" aria-labelledby="headingO" data-bs-parent="#accordionExample1">
+              <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
                   <p>The repayment of the principal starts from the month subsequent to the month in which you receive the complete disbursement of your loan. During the interim disbursement period, you are required to pay interest on the disbursed portion of the loan.
                 </div>
@@ -394,22 +394,22 @@ include './layout/mobileNav.php'; ?>
               </div>
             </div>
             <div class="accordion-item acc_itm my-3">
-              <h2 class="accordion-header" id="headingT">
-                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="false" aria-controls="collapseT">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                   What does encumbrance refer to?
                 </button>
               </h2>
-              <div id="collapseT" class="accordion-collapse collapse" aria-labelledby="headingT" data-bs-parent="#accordionExample1">
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
                 <div class="accordion-body fw-normal">
                   Encumbrance refers to claims, charges, or liabilities on a property, typically arising from factors like unpaid loans, outstanding bills, or other financial obligations. </div>
               </div>
             </div>
             <div class="accordion-item acc_itm">
-              <h2 class="accordion-header" id="headingTh">
-                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTh" aria-expanded="false" aria-controls="collapseTh">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed acc_btn fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                   What is the maximum home loan that I can obtain? </button>
               </h2>
-              <div id="collapseTh" class="accordion-collapse collapse" aria-labelledby="headingTh" data-bs-parent="#accordionExample1">
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample1">
                 <div class="accordion-body">
                   You need to provide an 'own contribution' ranging from 10-25% of the total property cost, depending on the loan amount. A housing loan can cover 75 to 90% of the property cost. </div>
               </div>
