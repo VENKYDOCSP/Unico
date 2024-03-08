@@ -295,7 +295,7 @@ include './layout/mobileNav.php'; ?>
             <div class="d-md-none d-block d-flex justify-content-center align-items-center">
               <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Island.svg" class="img-fluid " />
             </div>
-            <a class="d-flex justify-content-md-start justify-content-center d-md-block d-none align-items-center" href="./product.php"> <button class="py-3 px-5 y_waste_money_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
+            <a class="d-flex justify-content-md-start justify-content-center  align-items-center" href="./product.php"> <button class="py-3 px-5 y_waste_money_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
           </div>
         </div>
 
@@ -320,7 +320,11 @@ include './layout/mobileNav.php'; ?>
                   <p class="lh-base  fw-bold text-white pe-4 text-center text-md-start">Quick Approvals, Simplified Process:</p>
                   <p class="lh-lg text-light  pe-3 text-center text-md-start">Recognizing your urgency, we streamline pre-loan formalities to expedite decisions and provide quicker access to your dream home. </p>
                 </div>
-                <div class="col-12 col-md-4 d-md-block d-none"> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div>
+                <!-- <div class="col-12 col-md-4 d-md-block d-none"> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div> -->
+                <div class="col-12 col-md-4 d-md-block d-none">
+                  <img src="./assets/homehand.gif"/>
+
+                </div>
               </div>
             </li>
             <li class="splide__slide d-flex">
@@ -332,7 +336,10 @@ include './layout/mobileNav.php'; ?>
                   <p class="lh-base  fw-bold text-white  text-center text-md-start pe-3">Seamless Documentation, Reduced Paperwork:</p>
                   <p class="lh-lg text-light  pe-3 text-center text-md-start">We emphasize a straightforward documentation process, guaranteeing a smooth journey towards your dream space.</p>
                 </div>
-                <div class="col-12 col-md-4 text-center d-md-block d-none"> <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player> </div>
+                <div class="col-12 col-md-4 text-center d-md-block d-none">
+                   <!-- <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player>  -->
+                   <img src="./assets/document.gif"/>
+                  </div>
               </div>
             </li>
             <li class="splide__slide d-flex">
@@ -344,7 +351,10 @@ include './layout/mobileNav.php'; ?>
                   <p class="lh-base  fw-bold text-white pe-3 text-center text-md-start">Digital Ease, Constant Connectivity:</p>
                   <p class="lh-lg text-light pe-3 text-center text-md-start">Our intuitive digital tools provide round-the-clock access to account details, payments, and support, empowering you at every stage.</p>
                 </div>
-                <div class="col-12 col-md-4 text-center d-md-block d-none"> <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player> </div>
+                <div class="col-12 col-md-4 text-center d-md-block d-none">
+                   <!-- <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player>  -->
+                   <img src="./assets/phone.gif"/>
+                  </div>
               </div>
             </li>
           </ul>

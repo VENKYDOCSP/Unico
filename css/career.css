@@ -187,6 +187,8 @@
 width: 60px;
 height: 60px;
 }
+
+
 @media screen and (max-width: 768px) {
   .career_img {
     margin-top: 0%;

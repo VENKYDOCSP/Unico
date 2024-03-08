@@ -1442,4 +1442,7 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   .slick-dotted.slick-slider {
     margin-bottom: 30px !important;
   }
+  section.scroll-trigger{
+    background-size: cover !important;
+  }
 }
