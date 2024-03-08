@@ -343,7 +343,7 @@
         arrows: true,
         infinite: true,
         slidesToShow: 3,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 1500,
         autoplay: true,
         slidesToScroll: 1,
         adaptiveHeight: true,
@@ -357,10 +357,13 @@
                 }
             },
             {
-                breakpoint: 575,
+                breakpoint: 600,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    // autoplay: false,
+                    dots: true,
                 }
             }
         ]
@@ -469,8 +472,8 @@
         autoplay: false,
         autoplaySpeed: 2000,
         slidesToScroll: 1,
-        prevArrow: '<button class="product-slide-arrow product-prev-arrow"></button>',
-        nextArrow: '<button class="product-slide-arrow product-next-arrow"></button>',
+        // prevArrow: '<button class="product-slide-arrow product-prev-arrow"></button>',
+        // nextArrow: '<button class="product-slide-arrow product-next-arrow"></button>',
         responsive: [{
                 breakpoint: 991,
                 settings: {
@@ -478,6 +481,7 @@
                     autoplaySpeed: 2000,
                     slidesToShow: 4,
                     slidesToScroll: 1,
+                    dots: true,
                 }
             },
             {
@@ -487,6 +491,8 @@
                     autoplaySpeed: 2000,
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    arrows: true,
+                    dots: true,
                 }
             }
         ]
@@ -554,8 +560,8 @@
         cover: true,
         wheelSleep: 900,
         breakpoints: {
-            575: {
-                height: '40vh',
+            600: {
+                height: '50vh',
             }
         },
         slide: function(splide, index) {

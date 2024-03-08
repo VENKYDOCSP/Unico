@@ -39,8 +39,6 @@ include './layout/mobileNav.php'; ?>
   <!-- <p class="text-center fw-bold  y_chose_unico mt-5 pt-3">Our <span>Products</span></p>
   <p class="text-center   fs-2 mt-0 pt-0">Buy Your Dream Home with our Easy Home <br> Loan Process and Fast Approval</p> -->
   <div>
-
-
     <div class="product_cont mt-0 pt-0 z-9  position-relative">
       <div class="container-fluid p-0">
         <div class="row ">
@@ -51,17 +49,18 @@ include './layout/mobileNav.php'; ?>
               <div>
                 <div class="  text-white caro_1 caros">
                   <p class="pt-3"></p>
-                  <p class=" text-center px-3 fw-semibold pt-5">Home Loan Balance Transfer</p>
+                  <p class=" text-center px-3 fw-semibold pt-md-5 pt-2">Home Loan Balance Transfer</p>
                   <!-- <p class="ms-0 mb-5 d-flex justify-content-center pb-3">
                 <img class="img-fluid  pb-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/prod_caro_new_img.png" alt="" srcset="">
               </p> -->
-                  <div class="text-center pb-5 pt-3 ">
+                  <div class="text-center pb-md-5 pb-2 pt-3 ">
                     <p class="text-center mx-5 mt-2 prod_gif_clr rounded-4 ">
                       <img class="img_fluid1" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Balance-Transfer.gif" alt="" srcset="">
                     </p>
                   </div>
+                  <a class="d-flex justify-content-md-start d-md-none d-block justify-content-center mb-4 align-items-center" href="./product.php"> <button class="py-3 px-4 Form_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
                 </div>
-                <div class="text-center product_joint px-1">
+                <div class="text-center product_joint px-1 d-md-block d-none">
                   <p class="px-1">Streamline your finances by transferring your existing home loan to Unico.</p>
                   <!-- <p class="px-3 pb-4"> <a class="" href="./product.php"><button class="py-2 px-3 rentalhome_btn mt-3 fs-5 fw-semibold">APPLY NOW</button></a></p> -->
                   <a class="box__link button-animation" href="./product.php">
@@ -80,17 +79,18 @@ include './layout/mobileNav.php'; ?>
               <div class="background"></div>
               <div class="  text-white caro_2 caros">
                 <p class="pt-3"></p>
-                <p class=" text-center px-3 fw-semibold pt-5">New Commercial Property Purchase Loan</p>
+                <p class=" text-center px-3 fw-semibold pt-md-5 pt-2">New Commercial Property Purchase Loan</p>
                 <!-- <p class="ms-0 mb-5 d-flex justify-content-center pb-3">
                 <img class="img-fluid  pb-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/prod_caro_new_img.png" alt="" srcset="">
               </p> -->
-                <div class="text-center pb-5 pt-3 ">
+                <div class="text-center  pb-md-5 pb-2 pt-3  ">
                   <p class="text-center d-flex ju mx-5 mt-2 prod_gif_clr rounded-4 ">
                     <img class="img_fluid1" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/New-Commercial-.gif" alt="" srcset="">
                   </p>
                 </div>
+                <a class="d-flex justify-content-md-start d-md-none d-block justify-content-center mb-4 align-items-center" href="./product.php"> <button class="py-3 px-4 Form_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
               </div>
-              <div class="text-center product_joint px-1">
+              <div class="text-center product_joint px-1 d-md-block d-none">
                 <p class="px-1">Acquire brand-new commercial spaces or shops in commercial complexes.</p>
                 <!-- <p class="px-3 pb-4"> <a class="<?php echo (isset($active) && $active === 4) ? 'active' : ''; ?>" <?php echo (isset($active) && $active === 4) ? 'style="background-color: #CCCEFF;color:#ffffff!important;"' : ''; ?> href="./product.php"><button class="py-2 px-3 rentalhome_btn mt-3 fs-5 fw-semibold">APPLY NOW</button></a></p> -->
                 <a class="box__link button-animation" href="./product.php">
@@ -108,14 +108,15 @@ include './layout/mobileNav.php'; ?>
               <div class="background"></div>
               <div class="  text-white caro_3 caros">
                 <p class="pt-3"></p>
-                <p class=" text-center px-3 fw-semibold pt-5">Home Extension <br>Loan</p>
-                <div class="text-center pb-5 pt-3 ">
+                <p class=" text-center px-3 fw-semibold pt-md-5 pt-2">Home Extension <br>Loan</p>
+                <div class="text-center pb-md-5 pb-2 pt-3 ">
                   <p class="text-center mx-5 mt-2 prod_gif_clr rounded-4 ">
                     <img class="img_fluid1" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Home-Extention-Loan-Gif.gif" alt="" srcset="">
                   </p>
                 </div>
+                <a class="d-flex justify-content-md-start d-md-none d-block justify-content-center mb-4 align-items-center" href="./product.php"> <button class="py-3 px-4 Form_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
               </div>
-              <div class="text-center product_joint px-1">
+              <div class="text-center product_joint px-1 d-md-block d-none">
                 <p class="px-1">Boost your existing home loan for various purposes, like renovations, extensions, etc. </p>
                 <!-- <p class="px-3 pb-4"> <a class="<?php echo (isset($active) && $active === 4) ? 'active' : ''; ?>" <?php echo (isset($active) && $active === 4) ? 'style="background-color: #CCCEFF;color:#ffffff!important;"' : ''; ?> href="./product.php"><button class="py-2 px-3 rentalhome_btn mt-3 fs-5 fw-semibold">APPLY NOW</button></a></p> -->
                 <a class="box__link button-animation" href="./product.php">
@@ -132,17 +133,18 @@ include './layout/mobileNav.php'; ?>
               <div class="background"></div>
               <div class="  text-white caro_4 caros">
                 <p class="pt-3"></p>
-                <p class=" text-center px-3 fw-semibold pt-5">Loan Against Property <br> Residential </p>
+                <p class=" text-center px-3 fw-semibold  pt-md-5 pt-2">Loan Against Property <br> Residential </p>
                 <!-- <p class="ms-0 mb-5 d-flex justify-content-center pb-3">
                 <img class="img-fluid  pb-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/prod_caro_new_img.png" alt="" srcset="">
               </p> -->
-                <div class="text-center pb-5 pt-3 ">
+                <div class="text-centerpb-md-5 pb-2 pt-3 ">
                   <p class="text-center mx-5 mt-2 prod_gif_clr rounded-4 ">
                     <img class="img_fluid1" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Loan-Against-Property.gif" alt="" srcset="">
                   </p>
                 </div>
+                <a class="d-flex justify-content-md-start d-md-none d-block justify-content-center mb-4 align-items-center" href="./product.php"> <button class="py-3 px-4 Form_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
               </div>
-              <div class="text-center product_joint px-1">
+              <div class="text-center product_joint px-1 d-md-block d-none">
                 <p class="px-1">Leverage the equity in your residential property to address various financial requirements.</p>
                 <!-- <p class="px-3 pb-4"> <a class="<?php echo (isset($active) && $active === 7) ? 'active' : ''; ?>" <?php echo (isset($active) && $active === 4) ? 'style="background-color: #CCCEFF;color:#ffffff!important;"' : ''; ?> href="./product.php"><button class="py-2 px-3 rentalhome_btn mt-3 fs-5 fw-semibold">APPLY NOW</button></a></p> -->
                 <a class="box__link button-animation" href="./product.php">
@@ -159,17 +161,18 @@ include './layout/mobileNav.php'; ?>
               <div class="background"></div>
               <div class="  text-white caro_5 caros">
                 <p class="pt-3"></p>
-                <p class=" text-center px-3 fw-semibold pt-5">Home Construction <br>Loan</p>
+                <p class=" text-center px-3 fw-semibold  pt-md-5 pt-2">Home Construction <br>Loan</p>
                 <!-- <p class="ms-0 mb-5 d-flex justify-content-center pb-3">
                 <img class="img-fluid  pb-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/prod_caro_new_img.png" alt="" srcset="">
               </p> -->
-                <div class="text-center pb-5 pt-3 ">
+                <div class="text-center pb-md-5 pb-2 pt-3 ">
                   <p class="text-center mx-5 mt-2 prod_gif_clr rounded-4 ">
                     <img class="img_fluid1" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Home Construction Loan Gif.gif" alt="" srcset="">
                   </p>
                 </div>
+                <a class="d-flex justify-content-md-start d-md-none d-block justify-content-center mb-4 align-items-center" href="./product.php"> <button class="py-3 px-4 Form_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
               </div>
-              <div class="text-center product_joint px-1">
+              <div class="text-center product_joint px-1 d-md-block d-none">
                 <p class="px-2">Construct your ideal living space with our Home Construction Loan. </p>
                 <!-- <p class="px-3 pb-4"> <a class="<?php echo (isset($active) && $active === 4) ? 'active' : ''; ?>" <?php echo (isset($active) && $active === 4) ? 'style="background-color: #CCCEFF;color:#ffffff!important;"' : ''; ?> href="./product.php"><button class="py-2 px-3 rentalhome_btn mt-3 fs-5 fw-semibold">APPLY NOW</button></a></p> -->
                 <a class="box__link button-animation" href="./product.php">
@@ -186,17 +189,18 @@ include './layout/mobileNav.php'; ?>
               <div class="background"></div>
               <div class="  text-white caro_6 caros">
                 <p class="pt-3"></p>
-                <p class=" text-center px-3 fw-semibold pt-5">Resale Commercial Property Purchase Loan</p>
+                <p class=" text-center px-3 fw-semibold  pt-md-5 pt-2">Resale Commercial Property Purchase Loan</p>
                 <!-- <p class="ms-0 mb-5 d-flex justify-content-center pb-3">
                 <img class="img-fluid  pb-5" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/prod_caro_new_img.png" alt="" srcset="">
               </p> -->
-                <div class="text-center pb-5 pt-3 ">
+                <div class="text-center pb-md-5 pb-2 pt-3 ">
                   <p class="text-center mx-5  mt-2 prod_gif_clr rounded-4 ">
                     <img class="img_fluid1" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Resale-Commercial.gif" alt="" srcset="">
                   </p>
                 </div>
+                <a class="d-flex justify-content-md-start d-md-none d-block justify-content-center mb-4 align-items-center" href="./product.php"> <button class="py-3 px-4 Form_btn mt-3  fw-semibold" data-aos="fade-right" data-aos-duration="1200">APPLY NOW</button></a>
               </div>
-              <div class="text-center product_joint px-1">
+              <div class="text-center product_joint px-1 d-md-block d-none">
                 <p class="px-1">Purchase your commercial space to upscale your business using this loan.
                 </p>
                 <!-- <p class="px-3 pb-4"> <a class="<?php echo (isset($active) && $active === 4) ? 'active' : ''; ?>" <?php echo (isset($active) && $active === 7) ? 'style="background-color: #CCCEFF;color:#ffffff!important;"' : ''; ?> href="./product.php"><button class="py-2 px-3 rentalhome_btn mt-3 fs-5 fw-semibold">APPLY NOW</button></a></p> -->
@@ -294,7 +298,7 @@ include './layout/mobileNav.php'; ?>
                   <p class="lh-base  fw-bold text-white pe-4 text-center text-md-start">Quick Approvals, Simplified Process:</p>
                   <p class="lh-lg text-light  pe-3 text-center text-md-start">Recognizing your urgency, we streamline pre-loan formalities to expedite decisions and provide quicker access to your dream home. </p>
                 </div>
-                <div class="col-12 col-md-4 d-md-block d-none"> <lottie-player class="" id="lottie-one" src="https://foodmelon.com/unico/assets/whychoose.json" speed="1"></lottie-player> </div>
+                <div class="col-12 col-md-4 d-md-block d-none"> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div>
               </div>
             </li>
             <li class="splide__slide d-flex">
@@ -326,12 +330,12 @@ include './layout/mobileNav.php'; ?>
       </section>
     </section>
   </div>
-  <div class="container bg-white" id="nextsection">
+  <div class="container bg-white d-none" id="nextsection">
     <p class="text-center fw-bold  y_chose_unico  py-4 pb-2 " data-aos="fade-up">Plan your dream home <span> with confidence! </span></p>
     <?php include './component/calculator.php' ?>
     <p class="text-center fw-bold  y_chose_unico py-4 pt-2 mb-0 " data-aos="fade-up">Review from our valued <span>Customers</span></p>
   </div>
-  <div class="bg-white ">
+  <div class="bg-white d-none">
     <div class="happy_customer">
       <p> </p>
     </div>
@@ -416,12 +420,12 @@ include './layout/mobileNav.php'; ?>
     </div>
   </div>
   <!-- get a call back -->
-  <div class="bg-white mt-5">
+  <div class="bg-white mt-5 d-none">
     <div class="get_cal_back_bk " style="z-index:1">
       <div class="container  py-5">
         <div class="row">
           <div class="col-md-6 col-12 pt-5  ">
-            <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/House_3D_Without_Graphic_1-2+2.png" alt="" class="d-md-none d-block">
+            <img class="img-fluid d-md-none d-block" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/House_3D_Without_Graphic_1-2+2.png" alt="" class="d-md-none d-block">
           </div>
           <div class="col-md-6 col-12 align-self-end" data-aos="fade-left" data-aos-duration="1000">
             <div class="get_call_bk_cont  rounded-4 py-3 ps-5 pe-5">

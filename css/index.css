@@ -1293,6 +1293,18 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
     font-size: 14px !important;
   }
 
+  .caros p:nth-child(2) {
+    height: 78px;
+  }
+
+  .caro:hover .product_joint {
+    display: none !important;
+  }
+
+  /* .background {
+    background: none !important;
+  } */
+
   .floatbtn {
     font-size: 14px !important;
   }
@@ -1402,11 +1414,32 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
     color: #5a5a5a;
     font-size: 16px;
   }
-  section.scroll-trigger {
-    background-position: cover;
-  }
+  /* section.scroll-trigger {
+    background-image: cover !important;
+  } */
   .phonecont {
     /* width: 100%; */
-    height: 90vh;
+    /* height: 100vh; */
+  }
+
+  .Form_btn {
+    border-radius: 15px;
+    background: #62c6c2;
+    color: #fff;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+  }
+
+  .caro:hover {
+    padding: 0px !important;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 30px !important;
   }
 }

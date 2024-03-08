@@ -83,57 +83,57 @@ include './layout/mobileNav.php'; ?>
   </div>
 </div>
 <div class="container-fluid py-md-5" style="background-color: #E7E7E7;">
-  <div class="row pt-5">
+  <div class="row pt-md-5 pt-3">
     <div class="col-12 col-md-5 servicetitle p-md-5 p-2 ">
       <h1 class="ps-3 ps-md-5" data-aos="fade-right" data-aos-duration="600">OUR SERVICES</h1>
       <p class=" ps-3 ps-md-5" data-aos="fade-right" data-aos-duration="800">Custom-made services to meet your needs
       </p>
     </div>
-    <div class="col-12 col-md-7 servicecol py-3 py-md-0 ">
+    <div class="col-12 col-md-7 servicecol  py-md-0 ">
       <div class="row services mx-4  ">
-        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="600">
+        <div class="servbox m-md-4 ms-md-auto ms-1" data-aos="zoom-in" data-aos-duration="600">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service1.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Customized services delivered at your doorsteps</h2>
         </div>
-        <div class="servbox m-md-4   " data-aos="zoom-in" data-aos-duration="800">
+        <div class="servbox m-md-4  ms-md-auto ms-1 " data-aos="zoom-in" data-aos-duration="800">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service3.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Simple documentation </h2>
         </div>
-        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1000">
+        <div class="servbox m-md-4 ms-md-auto ms-1" data-aos="zoom-in" data-aos-duration="1000">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service4.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Instant loan approval</h2>
         </div>
-        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1200">
+        <div class="servbox m-md-4 ms-md-auto ms-1" data-aos="zoom-in" data-aos-duration="1200">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service5.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">No ITR</h2>
         </div>
-        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1400">
+        <div class="servbox m-md-4 ms-md-auto ms-1" data-aos="zoom-in" data-aos-duration="1400">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service6.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Fast loan disbursement</h2>
         </div>
-        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1600">
+        <div class="servbox m-md-4 ms-md-auto ms-1" data-aos="zoom-in" data-aos-duration="1600">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service7.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Support in getting government Documents / legal records</h2>
         </div>
-        <div class="servbox m-md-4 " data-aos="zoom-in" data-aos-duration="1800">
+        <div class="servbox m-md-4 ms-md-auto ms-1" data-aos="zoom-in" data-aos-duration="1800">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service8.svg" alt="">
           </p>
           <h2 class="pt-md-2 pb-md-5">Loans with long repayment period</h2>
         </div>
-        <div class="servbox m-md-4 ">
+        <div class="servbox m-md-4 ms-md-auto ms-1">
           <p class="d-flex justify-content-center ">
             <img class="img-fluid pt-md-5 pt-4" width="40%" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/service9.svg" alt="">
           </p>

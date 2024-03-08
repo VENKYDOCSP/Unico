@@ -259,7 +259,7 @@
   }
 
   .servicetitle p {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .sell_product {
@@ -275,6 +275,23 @@
   .frequently_desc span {
     font-size: 28px;
     line-height: 30px;
+  }
+
+  .servicecol .slick-slide {
+    height: 220px !important;
+  }
+
+  .servbox > h2 {
+    font-size: 12px !important;
+    padding: 10px !important;
+  }
+
+  .servicecol {
+    height: 210px !important ;
+  }
+
+  .services .slick-dots li.slick-active button:before {
+    color: #ccceff !important;
   }
 
   /* .servbox{
