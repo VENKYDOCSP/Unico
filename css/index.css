@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 
 a {
   text-decoration: none !important;
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
 .btn:hover {
@@ -82,7 +82,7 @@ a {
 }
 
 .floatbtn {
-  color: #fff;
+  color: #fff !important;
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: Gilroy-Bold;
   font-size: 16px;
@@ -1442,7 +1442,7 @@ li.slick-slide[style='opacity: 1;'] .slick-nav::after {
   .slick-dotted.slick-slider {
     margin-bottom: 30px !important;
   }
-  section.scroll-trigger{
+  section.scroll-trigger {
     background-size: cover !important;
   }
 }

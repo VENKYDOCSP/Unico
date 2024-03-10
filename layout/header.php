@@ -64,7 +64,7 @@
                             <div class="py-md-0 col-xl-12 col-lg-12 col-md-12 col-12 d-flex justify-content-end">
                                 <div class="px-md-3 ps-3">
                                     <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/SvgIcon.svg" />
-                                    <a href="tel:044 611711" class="text-decoration-none  text-light">044 611711</a>
+                                    <a href="tel:044 6117111" class="text-decoration-none  text-light">044 6117111</a>
                                 </div>
                                 <div class="px-md-3 px-3">
                                     <img class="img-fluid" src="https://unicowebsite.s3.ap-south-1.amazonaws.com/SvgIcon1.svg" />

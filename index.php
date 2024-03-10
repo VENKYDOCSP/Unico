@@ -268,7 +268,7 @@ include './layout/mobileNav.php'; ?>
 
     </div>
   </div>
-  <div class="row p-o m-0 justify-content-center d-md-block d-none ">
+  <div class="row p-0 m-0 justify-content-center d-md-block d-none ">
     <div class="col-12 p-0 m-0">
       <div class="phonecont" id="animationWindow">
       </div>
@@ -322,7 +322,7 @@ include './layout/mobileNav.php'; ?>
                 </div>
                 <!-- <div class="col-12 col-md-4 d-md-block d-none"> <lottie-player class="" id="lottie-one" src="./assets/whychoose.json" speed="1"></lottie-player> </div> -->
                 <div class="col-12 col-md-4 d-md-block d-none">
-                  <img src="./assets/homehand.gif"/>
+                  <img src="./assets/homehand.gif" />
 
                 </div>
               </div>
@@ -337,9 +337,9 @@ include './layout/mobileNav.php'; ?>
                   <p class="lh-lg text-light  pe-3 text-center text-md-start">We emphasize a straightforward documentation process, guaranteeing a smooth journey towards your dream space.</p>
                 </div>
                 <div class="col-12 col-md-4 text-center d-md-block d-none">
-                   <!-- <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player>  -->
-                   <img src="./assets/document.gif"/>
-                  </div>
+                  <!-- <lottie-player class="" id="lottie-two" src="./assets/whychoose2.json" speed="1"></lottie-player>  -->
+                  <img src="./assets/document.gif" />
+                </div>
               </div>
             </li>
             <li class="splide__slide d-flex">
@@ -352,9 +352,9 @@ include './layout/mobileNav.php'; ?>
                   <p class="lh-lg text-light pe-3 text-center text-md-start">Our intuitive digital tools provide round-the-clock access to account details, payments, and support, empowering you at every stage.</p>
                 </div>
                 <div class="col-12 col-md-4 text-center d-md-block d-none">
-                   <!-- <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player>  -->
-                   <img src="./assets/phone.gif"/>
-                  </div>
+                  <!-- <lottie-player class="" id="lottie-three" src="./assets/whychoose1.json" speed="1"></lottie-player>  -->
+                  <img src="./assets/phone.gif" />
+                </div>
               </div>
             </li>
           </ul>
@@ -507,7 +507,7 @@ include './layout/mobileNav.php'; ?>
       <div class="Variable" id="General">
         <div class="row justify-content-between px-4 ">
           <div class="accordion d-flex flex-md-row flex-column" id="accordionExample">
-          <div class="col-md-6 pb-4">
+            <div class="col-md-6 pb-4">
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -545,9 +545,9 @@ include './layout/mobileNav.php'; ?>
                 </div>
               </div>
             </div>
-          
-          <div class="col-md-6 pb-4">
-            <!-- <div class="accordion" id="accordionExample"> -->
+
+            <div class="col-md-6 pb-4">
+              <!-- <div class="accordion" id="accordionExample"> -->
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingFour">
                   <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -572,15 +572,15 @@ include './layout/mobileNav.php'; ?>
                   </div>
                 </div>
               </div>
-            <!-- </div> -->
-          </div>
+              <!-- </div> -->
+            </div>
           </div>
         </div>
       </div>
       <div class="Variable" id="Loans" style="display:none">
         <div div class="row justify-content-between px-4 ">
           <div class="accordion d-flex flex-md-row flex-column" id="accordionExample1">
-          <div class="col-md-6 col-12 pb-4">
+            <div class="col-md-6 col-12 pb-4">
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -614,10 +614,10 @@ include './layout/mobileNav.php'; ?>
                     The security for the loan usually includes a legal interest in the property financed by us and/or any extra collateral or temporary security deemed necessary by us. </div>
                 </div>
               </div>
-            <!-- </div> -->
-          </div>
-          <div class="col-md-6 col-12 pb-4">
-            <!-- <div class="accordion" id="accordionExample1"> -->
+              <!-- </div> -->
+            </div>
+            <div class="col-md-6 col-12 pb-4">
+              <!-- <div class="accordion" id="accordionExample1"> -->
               <div class="accordion-item acc_itm">
                 <h2 class="accordion-header" id="headingFour">
                   <button class="accordion-button acc_btn fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -653,7 +653,7 @@ include './layout/mobileNav.php'; ?>
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
 

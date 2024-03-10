@@ -33,13 +33,13 @@ include './layout/mobileNav.php';
             <?php } ?>
         </div>
         <h1 class="   px-md-5 pt-md-2 text-center" data-aos="zoom-in" data-aos-duration="700">Contact us</h1>
-        <p class="LocateUs text-center mb-md-5" data-aos="zoom-in" data-aos-duration="700">Any question or remarks? Just write us a message!</p>
+        <p class="LocateUs text-center mb-md-5" data-aos="zoom-in" data-aos-duration="700">Connect with us. Reach out for expert assistance today.</p>
         <div class="conatiner contact_contain mx-md-5 my-md-3">
             <div class="row ">
                 <div class="col-12 col-lg-5 px-md-4  contact_detail text-center text-md-start mx-auto pt-md-5   order-lg-0 order-3" data-aos="fade-right" data-aos-duration="700">
                     <div class="text-start ps-md-3 mb-md-5 ">
                         <p class="fw-medium mb-2 mb-md-2 m-0 infocont mt-2 mt-md-0">Contact Information</p>
-                        <p class="infodesc">Feel free to contact us any time. We will get back<br> to you as soon as we can</p>
+                        <p class="infodesc">You can connect with us any time for all<br> your loan related queries.</p>
                     </div>
                     <div class="mt-1 ps-md-3 d-flex justify-content-md-start gap-3 pt-md-1">
                         <p class="fw-medium "> <span> <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Mail%2BIcon.svg" /> </span></p>
@@ -56,12 +56,12 @@ include './layout/mobileNav.php';
                             <p class="fw-medium mb-md-2 m-0">Contact Us</p>
                             <a href="tel:+91-44-2232 8888" style="text-decoration: none;">
                                 <a href="tel:044 611711" class="text-decoration-none  text-light">
-                                    <p style="color: #535861;" class="m-0 pb-3">044 611711</p>
+                                    <p style="color: #535861;" class="m-0 pb-3">044 6117111</p>
                                 </a>
                             </a>
                         </div>
                     </div>
-                    <div class="mt-3 ps-md-3 d-flex justify-content-start gap-3 pt-md-3 pb-md-2 d-none d-md-block ">
+                    <div class="mt-3 ps-md-3 d-md-flex justify-content-start gap-3 pt-md-3 pb-md-2 d-none  ">
                         <p class="fw-medium"><span> <img src="https://unicowebsite.s3.ap-south-1.amazonaws.com/Location.svg" /> </span></p>
                         <div class="text-start">
                             <p class="fw-medium mb-md-2 m-0">Address</p>
@@ -105,14 +105,14 @@ include './layout/mobileNav.php';
                             </div>
                         </div>
                         <div class="row mb-md-5">
-                            <div class="col-md-6 my-md-4 mt-2 mt-md-5">
+                            <div class="col-md-6  my-md-4 my-2">
                                 <input class="px-3 form-control contactUsInput form-bg" type="tel" required placeholder="Phone Number" name="number" oninput="validateNumber(event)">
                             </div>
                             <div class="col-md-6  my-md-4 my-2">
-                                <input class="form-control form-bg contactUsInput px-3 pt-2 " type="text" name="address" placeholder="Address" id="exampleFormControlTextarea1"></input>
+                                <input class="form-control form-bg contactUsInput px-3 " type="text" name="address" placeholder="Address" id="exampleFormControlTextarea1"></input>
                             </div>
                         </div>
-                        <div class="my-md-4 my-2">
+                        <div class="my-md-4 my-3">
                             <textarea class="form-control border-1 form-bg px-3 pt-2 " name="message" placeholder="Message" id="exampleFormControlTextarea1" style="height: 150px;width: 100%; border-radius: 6px;"></textarea>
                         </div>
                         <div class="my-md-4 my-5 text-md-end  buttonForContactUs1 mt-md-5">

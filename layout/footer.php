@@ -103,6 +103,7 @@
         duration: 1,
         speed: 'slow',
     });
+
     ScrollLottie({
         target: '#animationWindowMobile',
         path: './assets/mobileLottie.json',
